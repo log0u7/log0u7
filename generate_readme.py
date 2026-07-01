@@ -5,12 +5,51 @@ import yaml
 import datetime
 import textwrap
 import subprocess
+import re
 from pathlib import Path
 
 PROFILE = "profile.yaml"
 BANNER_SOURCE = "assets/banner.txt"
 README = "README.md"
 WIDTH = 78
+MAN_NAME = "LOG0U7(1)"
+MAN_SECTION = "User Commands"
+
+
+BADGE_GROUPS = [
+    ("Infra / Containers", [
+        "Vagrant", "Packer", "Docker", "Podman", "LXC", "libvirt", "QEMU",
+        "Kubernetes", "Nomad", "Proxmox", "Traefik",
+    ]),
+    ("Observability / Monitoring", [
+        "Prometheus", "Grafana", "VictoriaMetrics", "VictoriaLogs", "CouchDB",
+    ]),
+    ("IaC / Automation", [
+        "Ansible", "OpenTofu", "OpenBao",
+    ]),
+    ("Languages / Runtimes", [
+        "Python", "Shell Script", "Markdown", "Vim",
+    ]),
+    ("Databases", [
+        "MariaDB", "MySQL", "Postgres", "Redis", "SQLite",
+    ]),
+    ("Security", [
+        "SSH", "GPG", "OpenSSL", "nmap", "OpenVAS",
+    ]),
+    ("Cloud", [
+        "AWS", "Google Cloud",
+    ]),
+    ("VCS / CI", [
+        "Git", "GitLab", "GitHub", "GitHub Actions", "GitLab CI",
+    ]),
+    ("Editors / IDEs", [
+        "Visual Studio Code", "Vim",
+    ]),
+    ("Distributions", [
+        "Debian", "Ubuntu", "AlmaLinux", "Alpine Linux",
+        "Arch Linux", "Gentoo", "NixOS",
+    ]),
+]
 
 
 def figlet(text: str) -> str:
@@ -36,8 +75,45 @@ def tag(text: str) -> str:
     return f"`{text}`"
 
 
-def render_badges(badges: list) -> str:
-    return "\n".join(badges) if badges else ""
+def parse_badges_flat(badges: list) -> dict:
+    result = {}
+    for entry in badges:
+        m = re.match(r"!\[(.+?)\]\(.+?\)", entry)
+        if m:
+            name = m.group(1)
+            result[name] = entry
+    return result
+
+
+def render_badge_groups(badges: list) -> str:
+    if not badges:
+        return ""
+    flat = parse_badges_flat(badges)
+    assigned = set()
+    lines = []
+
+    for group_title, tech_list in BADGE_GROUPS:
+        found = []
+        for tech in tech_list:
+            if tech in flat:
+                found.append(flat[tech])
+                assigned.add(tech)
+        if found:
+            lines.append(f"    --- {group_title} ---")
+            lines.append("")
+            for b in found:
+                lines.append(f"    {b}")
+            lines.append("")
+
+    remaining = [v for k, v in flat.items() if k not in assigned]
+    if remaining:
+        lines.append("    --- Other ---")
+        lines.append("")
+        for b in remaining:
+            lines.append(f"    {b}")
+        lines.append("")
+
+    return "\n".join(lines)
 
 
 def load_profile() -> dict:
@@ -51,15 +127,22 @@ def render(p: dict) -> str:
     today = datetime.date.today().isoformat()
     now = datetime.datetime.now().isoformat(timespec="seconds")
 
-    # --- ASCII banner ---
+    # --- MAN PAGE HEADER ---
+    header_left = MAN_NAME
+    header_center = MAN_SECTION
+    header_right = MAN_NAME
+    pad = WIDTH - len(header_left) - len(header_center) - len(header_right)
+    parts.append(f"{header_left}{' ' * (pad // 2)}{header_center}{' ' * (pad - pad // 2)}{header_right}")
+    parts.append("")
+    parts.append("")
+
+    # --- ASCII BANNER ---
     parts.append("```text")
     parts.append("")
     parts.append(figlet(id_["handle"]))
     parts.append("```")
     parts.append("")
-
-    # --- Title ---
-    parts.append(f'`{id_["handle"]}` - {id_["title"]}')
+    parts.append(f"`{id_['handle']}` - {id_['title']}")
     parts.append("")
     parts.append(f"*Updated: {today}*")
     parts.append("")
@@ -74,9 +157,9 @@ def render(p: dict) -> str:
     parts.append("## SYNOPSIS")
     parts.append("")
     parts.append("```bash")
-    parts.append(f'$ {id_["handle"]} [OPTIONS] [PROJECT]')
-    parts.append(f'$ {id_["handle"]} --ai orchestration --platform kubernetes')
-    parts.append(f'$ {id_["handle"]} --output manpage --section EXAMPLES')
+    parts.append(f"    {id_['handle']} [--skills] [--format man] [--section <section>]")
+    parts.append(f"    {id_['handle']} --ai orchestration --platform kubernetes")
+    parts.append(f"    {id_['handle']} --skills --filter languages")
     parts.append("```")
     parts.append("")
 
@@ -85,23 +168,23 @@ def render(p: dict) -> str:
     parts.append("")
     parts.append(wrap(p["summary"]))
     parts.append("")
-
-    details = [
+    for label, value in [
         ("Handle", f'`{id_["handle"]}`'),
         ("Name", id_["name"]),
         ("Location", id_["location"]),
         ("Since", id_["since"]),
         ("Domain", "Platform Engineering / AI/ML / Security Tooling"),
-    ]
-    for label, value in details:
+    ]:
         parts.append(f"**{label}:** {value}  ")
     parts.append("")
 
-    # --- STACK (badges) ---
+    # --- STACK (badges grouped) ---
     if "badges" in p and p["badges"]:
         parts.append("## STACK")
         parts.append("")
-        parts.append(render_badges(p["badges"]))
+        groups = render_badge_groups(p["badges"])
+        if groups:
+            parts.append(groups)
         parts.append("")
 
     # --- OPTIONS (skills as flags) ---
@@ -109,24 +192,28 @@ def render(p: dict) -> str:
     parts.append("")
 
     skill_groups = p.get("stack", {})
-    group_map = {
-        "languages": ("Languages", "-l", "--lang"),
-        "platforms": ("Platforms", "-p", "--platform"),
-        "ai_ml": ("AI/ML", "-a", "--ai"),
-        "security": ("Security", "-s", "--sec"),
-        "observability": ("Observability", "-o", "--obs"),
-        "tooling": ("Tooling", "-t", "--tool"),
-    }
+    group_map = [
+        ("Languages", "-l", "languages"),
+        ("Platforms", "-p", "platforms"),
+        ("AI/ML", "-a", "ai_ml"),
+        ("Security", "-s", "security"),
+        ("Observability", "-o", "observability"),
+        ("Tooling", "-t", "tooling"),
+    ]
 
-    for key, (title, short_flag, long_flag) in group_map.items():
+    for title, short_flag, key in group_map:
         items = skill_groups.get(key, [])
         if not items:
             continue
         parts.append(f"### {title}")
         parts.append("")
         for item in items:
-            flag_name = item.split("(")[0].strip().lower().replace(" ", "-")
-            dots = "." * max(2, 26 - len(flag_name))
+            raw = item.split("(")[0].strip()
+            raw = raw.split(",")[0].strip()
+            raw = raw.split(" /")[0].strip()
+            raw = raw.split("/")[0].strip()
+            flag_name = raw.lower().replace(" ", "-")
+            dots = "." * max(2, 28 - len(flag_name))
             parts.append(f"  `{short_flag} {flag_name}`{dots}{item}")
         parts.append("")
 
