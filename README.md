@@ -1,11 +1,11 @@
 ```text
 
-   _                 _                    _ 
-  | |               | |                  | |
-  | |   ___   ___   | |_    ___    ___   | |
-  | |  / _ \ / _ \  | __|  / _ \  / _ \  | |
-  | | | (_) | (_) | | |_  | (_) | (_) | |_|
-  |_|  \___/ \___/   \__|  \___/  \___/  (_)
+    __            ____       _____
+   / /___  ____ _/ __ \__  _/__  /
+  / / __ \/ __ `/ / / / / / / / / 
+ / / /_/ / /_/ / /_/ / /_/ / / /  
+/_/\____/\__, /\____/\__,_/ /_/   
+        /____/                    
 ```
 
 `log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
@@ -169,4 +169,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [mailto:gke@6admin.io](mailto:gke@6admin.io)
 
 ---
-*Generated on 2026-07-01T19:46:38 from `profile.yaml`*
+*Generated on 2026-07-01T17:59:47 from `profile.yaml`*
