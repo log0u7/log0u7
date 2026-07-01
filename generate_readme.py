@@ -101,16 +101,14 @@ def render_badge_groups(badges: list) -> str:
         if found:
             lines.append(f"### {group_title}")
             lines.append("")
-            for b in found:
-                lines.append(f"    {b}")
+            lines.append(" ".join(found))
             lines.append("")
 
     remaining = [v for k, v in flat.items() if k not in assigned]
     if remaining:
-        lines.append("    --- Other ---")
+        lines.append("### Other")
         lines.append("")
-        for b in remaining:
-            lines.append(f"    {b}")
+        lines.append(" ".join(remaining))
         lines.append("")
 
     return "\n".join(lines)
@@ -127,17 +125,14 @@ def render(p: dict) -> str:
     today = datetime.date.today().isoformat()
     now = datetime.datetime.now().isoformat(timespec="seconds")
 
-    # --- MAN PAGE HEADER ---
+    # --- ASCII BANNER (includes manpage header) ---
     header_left = MAN_NAME
     header_center = MAN_SECTION
     header_right = MAN_NAME
     pad = WIDTH - len(header_left) - len(header_center) - len(header_right)
-    parts.append(f"{header_left}{' ' * (pad // 2)}{header_center}{' ' * (pad - pad // 2)}{header_right}")
-    parts.append("")
-    parts.append("")
-
-    # --- ASCII BANNER ---
+    header_line = f"{header_left}{' ' * (pad // 2)}{header_center}{' ' * (pad - pad // 2)}{header_right}"
     parts.append("```text")
+    parts.append(header_line)
     parts.append("")
     parts.append(figlet(id_["handle"]))
     parts.append("```")
@@ -182,13 +177,21 @@ def render(p: dict) -> str:
     if "bio" in p and p["bio"]:
         parts.append("### Origin")
         parts.append("")
+        paragraphs = []
+        current = []
         for line in p["bio"].strip().split("\n"):
             line = line.strip()
             if line == "":
-                parts.append("")
+                if current:
+                    paragraphs.append(" ".join(current))
+                    current = []
             else:
-                parts.append(wrap(line))
-        parts.append("")
+                current.append(line)
+        if current:
+            paragraphs.append(" ".join(current))
+        for para in paragraphs:
+            parts.append(wrap(para))
+            parts.append("")
 
     # --- STACK (badges grouped) ---
     if "badges" in p and p["badges"]:
@@ -219,6 +222,7 @@ def render(p: dict) -> str:
             continue
         parts.append(f"### {title}")
         parts.append("")
+        parts.append("```text")
         for item in items:
             raw = item.split("(")[0].strip()
             raw = raw.split(",")[0].strip()
@@ -226,7 +230,8 @@ def render(p: dict) -> str:
             raw = raw.split("/")[0].strip()
             flag_name = raw.lower().replace(" ", "-")
             dots = "." * max(2, 28 - len(flag_name))
-            parts.append(f"  `{short_flag} {flag_name}`{dots}{item}")
+            parts.append(f"  {short_flag} {flag_name}{dots}{item}")
+        parts.append("```")
         parts.append("")
 
     # --- EXAMPLES (projects) ---

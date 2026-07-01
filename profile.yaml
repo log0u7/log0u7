@@ -8,41 +8,50 @@ identity:
 summary: "Self-taught platform engineer designing and operating infrastructure, AI/ML and developer experience platforms. Multi-language stack (Python, Ruby, Perl, PHP, C/C++, Java, R, Prolog, VimScript)."
 
 bio: |
-  Born in 1984, I grew up with Thomson TO7/MO5 machines at primary school
-  thanks to the "Informatique pour Tous" plan, and we mostly taped them up
-  rather than programming them but BASIC still found its way in. At seven or
-  eight my father brought home a VTech Laser 500 with a cassette deck where
-  loading took fifteen minutes and a prayer at every LOAD "" that it would not
-  crash, plus the Scheidegger BASIC course in its grey briefcase with exercises
-  on tape, my first real computer at home, where I wrote agenda apps,
-  calculators, text games and fractal generators in BASIC. At ten my aunt gave
-  me her Amstrad CPC 6128+ with its 3-inch floppy drive, Locomotive BASIC and
-  CP/M, along with those listing books you had to type in yourself like
-  "Faites vos jeux avec Amstrad" and Sybex Action Games, pages of code riddled
-  with publisher typos that took hours to debug, and I wrote useless programs
-  that were at least mine. Then 1993 brought DOOM, not at home where we still
-  had the CPC but at school on a 486DX2/66 with 4 MB of RAM and a Sound
-  Blaster, the day I realized a machine could build real 3D worlds and nothing
-  would ever be the same. 1996-97 arrived my first personal PC, a Pentium then
-  an AMD K6, Warcraft 1 and 2 on the hard drive, C and assembly, Quake and
-  Quake 2, while BBS and newsgroups gave way to the web. 1998 meant StarCraft
-  and Brood War, three perfectly balanced races and entire nights of micro.
-  1999 brought Quake 3, Unreal Tournament, and Counter-Strike built on the
-  Half-Life engine inventing the tactical FPS online. 2000 meant organized CS,
-  LAN parties, discovering Linux and install parties, then PHP, Python, Ruby.
-  After 2001 the MMO era arrived with T4C (The 4th Coming) and DAoC, nights of
-  farming and PvP and guilds in worlds that kept turning when you logged off,
-  no WoW yet. 2009-2012 I ran a private WoW server on MaNGOS on a VPS, endless
-  compiles pegging the CPU while CMake screamed and the build folder ate the
-  disk, a MySQL database to manage with accounts, characters, item_template and
-  quest_template, distributing realmlist.wtf to the community, a launcher web
-  page and signup system and custom SQL events, a real crew behind it with game
-  masters and scripters writing items and quests, debugging the core,
-  optimizing, hosting, admin, community management, all self-taught. After
-  2012 I industrialized deployment of TeamSpeak and Mumble servers, Steam game
-  servers for CS:GO and ARK, maintaining an ARK cross-server community with
-  plugins, GM events, synchronized wipes, centralized configs. Thirty years
-  later I still build platforms, now with LLM agents and predictive ML.
+  1984. Thomson TO7/MO5 at school, "Informatique pour Tous", we were mostly
+  sticking tape on the keyboards rather than shipping code, but BASIC snuck in
+  anyway. Then my father landed home with a VTech Laser 500: cassette deck,
+  fifteen-minute load times, and a Scheidegger course in a grey briefcase.
+  First real machine. I wrote agenda apps, calculators, text games, fractal
+  generators, all in BASIC, none of it useful, all of it mine.
+
+  Ten years old, my aunt passed me her Amstrad CPC 6128+ with Locomotive BASIC,
+  CP/M, a 3-inch floppy drive, and a stack of listing books full of publisher
+  typos. You typed pages of code, hit RUN, got a syntax error on line 340, and
+  debugged it for hours. That was the curriculum. No Stack Overflow. No forums.
+  Just the listing and the machine.
+
+  1993: DOOM on a 486DX2/66 with 4 MB RAM and a Sound Blaster, at school because
+  we still had the CPC at home. That demo rewired something permanently. A machine
+  building 3D worlds in real time. Game over for every other hobby.
+
+  1996-97: first personal PC, Pentium then AMD K6. Warcraft 1 and 2, C, x86
+  assembly, Quake, Quake 2. BBS and newsgroups slowly dissolving into the web.
+  1998: StarCraft and Brood War, three perfectly balanced races, entire nights
+  of micro-management. 1999: Quake 3, Unreal Tournament, Counter-Strike on the
+  Half-Life engine, the tactical FPS online, invented in a garage. 2000:
+  organized CS with a clan, LAN parties, Linux install parties, then PHP,
+  Python, Ruby.
+
+  Post-2001: the MMO era hit hard. T4C (The 4th Coming), then DAoC, nights of
+  farming and PvP in persistent worlds that kept turning when you logged off.
+  No WoW yet, but the addiction was already wired in.
+
+  2009-2012: ran a private WoW server on MaNGOS, on a VPS, from scratch.
+  Endless CMake compiles pegging every core, build folders eating the disk.
+  MySQL database with accounts, characters, item_template, quest_template.
+  Distributed realmlist.wtf, built a launcher web page and signup system,
+  wrote custom SQL events and GM scripts. Had a real crew: game masters,
+  scripters, a community. Debugged the core, optimized queries, handled
+  hosting, admin, and community management. All self-taught. Zero budget.
+
+  Post-2012: industrialized deployments of TeamSpeak and Mumble servers, Steam
+  game servers for CS:GO and ARK. Ran a cross-server ARK community with
+  plugins, synchronized wipes, GM events, and centralized configs. Ops at
+  scale, still for fun.
+
+  Thirty years later the machines are bigger and the stack is deeper, but the
+  instinct is the same: figure it out, build it, run it.
 
 stack:
   languages:
@@ -173,7 +182,7 @@ projects:
   - key: "fluolight"
     name: "fluolight"
     desc: "Controleur NeoPixel embarque (Arduino/C++), Ethernet DHCP, proxy, watchdog, architecture modulaire 5 fichiers, 920 lignes"
-    url: "https://github.com/log0u7/arduino-fluolight"
+    url: "https://github.com/log0u7/fluolight"
     tags: ["Embedded", "C++", "Arduino", "NeoPixel", "Ethernet"]
     status: "active"
     lines: 920
