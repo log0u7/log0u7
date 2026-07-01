@@ -248,26 +248,25 @@ def render(p: dict) -> str:
         parts.append(f"### {title}")
         parts.append("")
         parts.append("```text")
-        for item in items:
+        desc_indent = "       "
+        for i, item in enumerate(items):
             raw = item.split("(")[0].strip()
             raw = raw.split(",")[0].strip()
             raw = raw.split(" /")[0].strip()
             raw = raw.split("/")[0].strip()
             flag_name = raw.lower().replace(" ", "-")
-            dots = "." * max(2, 28 - len(flag_name))
-            prefix = f"  {short_flag} {flag_name}{dots}"
-            indent = " " * len(prefix)
-            line = f"{prefix}{item}"
-            if len(line) <= WIDTH:
-                parts.append(line)
-            else:
-                wrapped = textwrap.fill(
-                    item,
-                    width=WIDTH,
-                    initial_indent=prefix,
-                    subsequent_indent=indent,
-                )
-                parts.append(wrapped)
+            parts.append(f"  {short_flag} {flag_name}")
+            wrapped = textwrap.fill(
+                item,
+                width=WIDTH,
+                initial_indent=desc_indent,
+                subsequent_indent=desc_indent,
+                break_long_words=False,
+                break_on_hyphens=False,
+            )
+            parts.append(wrapped)
+            if i < len(items) - 1:
+                parts.append("")
         parts.append("```")
         parts.append("")
 

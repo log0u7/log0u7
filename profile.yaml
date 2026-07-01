@@ -8,34 +8,39 @@ identity:
 summary: "Self-taught platform engineer designing and operating infrastructure, AI/ML and developer experience platforms. Multi-language stack (Python, Ruby, Perl, PHP, C/C++, Java, R, Prolog, VimScript)."
 
 bio: |
-  1984. Thomson TO7/MO5 at school, "Informatique pour Tous", we were mostly
-  sticking tape on the keyboards rather than shipping code, but BASIC snuck in
-  anyway. Then my father landed home with a VTech Laser 500: cassette deck,
-  fifteen-minute load times, and a Scheidegger course in a grey briefcase.
-  First real machine. I wrote agenda apps, calculators, text games, fractal
+  Born in 1984. First contact with a machine came around 1990-91 at primary
+  school: Thomson TO7/MO5 units, the "Informatique pour Tous" plan, mostly
+  sticking tape on the keyboards rather than shipping code, but BASIC snuck
+  in anyway.
+
+  The real thing came a year or two later. My father brought home a VTech
+  Laser 500: cassette deck, fifteen-minute load times, a Scheidegger BASIC
+  course in a grey briefcase. My first machine. Still have it. Between eight
+  and ten years old I wrote agenda apps, calculators, text games, fractal
   generators, all in BASIC, none of it useful, all of it mine.
 
-  Ten years old, my aunt passed me her Amstrad CPC 6128+ with Locomotive BASIC,
-  CP/M, a 3-inch floppy drive, and a stack of listing books full of publisher
-  typos. You typed pages of code, hit RUN, got a syntax error on line 340, and
-  debugged it for hours. That was the curriculum. No Stack Overflow. No forums.
-  Just the listing and the machine.
+  1993, age nine: DOOM on a 486DX2/66 with 4 MB RAM and a Sound Blaster, at
+  school, because at home I still had the Laser 500. That demo rewired
+  something permanently. A machine building 3D worlds in real time. Game over
+  for every other hobby.
 
-  1993: DOOM on a 486DX2/66 with 4 MB RAM and a Sound Blaster, at school because
-  we still had the CPC at home. That demo rewired something permanently. A machine
-  building 3D worlds in real time. Game over for every other hobby.
+  1994, age ten: my aunt passed me her Amstrad CPC 6128+ with Locomotive
+  BASIC, CP/M, a 3-inch floppy drive, and a stack of listing books riddled
+  with publisher typos. You typed pages of code, hit RUN, got a syntax error
+  on line 340, and debugged it for hours. That was the curriculum. No Stack
+  Overflow. No forums. Just the listing and the machine.
 
   1996-97: first personal PC, Pentium then AMD K6. Warcraft 1 and 2, C, x86
-  assembly, Quake, Quake 2. BBS and newsgroups slowly dissolving into the web.
-  1998: StarCraft and Brood War, three perfectly balanced races, entire nights
-  of micro-management. 1999: Quake 3, Unreal Tournament, Counter-Strike on the
-  Half-Life engine, the tactical FPS online, invented in a garage. 2000:
-  organized CS with a clan, LAN parties, Linux install parties, then PHP,
-  Python, Ruby.
+  assembly, Quake, Quake 2. BBS and newsgroups slowly dissolving into the
+  web. 1998: StarCraft and Brood War, three perfectly balanced races, entire
+  nights of micro-management. 1999: Quake 3, Unreal Tournament,
+  Counter-Strike on the Half-Life engine, the tactical FPS online, invented
+  in a garage. 2000: organized CS with a clan, LAN parties, Linux install
+  parties, then PHP, Python, Ruby.
 
-  Post-2001: the MMO era hit hard. T4C (The 4th Coming), then DAoC, nights of
-  farming and PvP in persistent worlds that kept turning when you logged off.
-  No WoW yet, but the addiction was already wired in.
+  Post-2001: the MMO era hit hard. T4C (The 4th Coming), then DAoC, nights
+  of farming and PvP in persistent worlds that kept turning when you logged
+  off. No WoW yet, but the addiction was already wired in.
 
   2009-2012: ran a private WoW server on MaNGOS, on a VPS, from scratch.
   Endless CMake compiles pegging every core, build folders eating the disk.
@@ -45,13 +50,13 @@ bio: |
   scripters, a community. Debugged the core, optimized queries, handled
   hosting, admin, and community management. All self-taught. Zero budget.
 
-  Post-2012: industrialized deployments of TeamSpeak and Mumble servers, Steam
-  game servers for CS:GO and ARK. Ran a cross-server ARK community with
-  plugins, synchronized wipes, GM events, and centralized configs. Ops at
-  scale, still for fun.
+  Post-2012: industrialized deployments of TeamSpeak and Mumble servers,
+  Steam game servers for CS:GO and ARK. Ran a cross-server ARK community
+  with plugins, synchronized wipes, GM events, and centralized configs. Ops
+  at scale, still for fun.
 
-  Thirty years later the machines are bigger and the stack is deeper, but the
-  instinct is the same: figure it out, build it, run it.
+  The machines got bigger, the stack got deeper, the instinct never changed:
+  figure it out, build it, run it. Now it is LLM agents and predictive ML.
 
 stack:
   languages:

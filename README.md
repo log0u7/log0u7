@@ -11,7 +11,7 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 `log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
 
-*Updated: 2026-07-01*
+*Updated: 2026-07-02*
 
 ## NAME
 
@@ -39,22 +39,27 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ### Origin
 
-1984. Thomson TO7/MO5 at school, "Informatique pour Tous", we were mostly
+Born in 1984. First contact with a machine came around 1990-91 at primary
+school: Thomson TO7/MO5 units, the "Informatique pour Tous" plan, mostly
 sticking tape on the keyboards rather than shipping code, but BASIC snuck in
-anyway. Then my father landed home with a VTech Laser 500: cassette deck,
-fifteen-minute load times, and a Scheidegger course in a grey briefcase. First
-real machine. I wrote agenda apps, calculators, text games, fractal
-generators, all in BASIC, none of it useful, all of it mine.
+anyway.
 
-Ten years old, my aunt passed me her Amstrad CPC 6128+ with Locomotive BASIC,
-CP/M, a 3-inch floppy drive, and a stack of listing books full of publisher
-typos. You typed pages of code, hit RUN, got a syntax error on line 340, and
-debugged it for hours. That was the curriculum. No Stack Overflow. No forums.
-Just the listing and the machine.
+The real thing came a year or two later. My father brought home a VTech Laser
+500: cassette deck, fifteen-minute load times, a Scheidegger BASIC course in a
+grey briefcase. My first machine. Still have it. Between eight and ten years
+old I wrote agenda apps, calculators, text games, fractal generators, all in
+BASIC, none of it useful, all of it mine.
 
-1993: DOOM on a 486DX2/66 with 4 MB RAM and a Sound Blaster, at school because
-we still had the CPC at home. That demo rewired something permanently. A
-machine building 3D worlds in real time. Game over for every other hobby.
+1993, age nine: DOOM on a 486DX2/66 with 4 MB RAM and a Sound Blaster, at
+school, because at home I still had the Laser 500. That demo rewired something
+permanently. A machine building 3D worlds in real time. Game over for every
+other hobby.
+
+1994, age ten: my aunt passed me her Amstrad CPC 6128+ with Locomotive BASIC,
+CP/M, a 3-inch floppy drive, and a stack of listing books riddled with
+publisher typos. You typed pages of code, hit RUN, got a syntax error on line
+340, and debugged it for hours. That was the curriculum. No Stack Overflow. No
+forums. Just the listing and the machine.
 
 1996-97: first personal PC, Pentium then AMD K6. Warcraft 1 and 2, C, x86
 assembly, Quake, Quake 2. BBS and newsgroups slowly dissolving into the web.
@@ -81,8 +86,8 @@ game servers for CS:GO and ARK. Ran a cross-server ARK community with plugins,
 synchronized wipes, GM events, and centralized configs. Ops at scale, still
 for fun.
 
-Thirty years later the machines are bigger and the stack is deeper, but the
-instinct is the same: figure it out, build it, run it.
+The machines got bigger, the stack got deeper, the instinct never changed:
+figure it out, build it, run it. Now it is LLM agents and predictive ML.
 
 ## STACK
 
@@ -152,87 +157,131 @@ instinct is the same: figure it out, build it, run it.
 ### Languages
 
 ```text
-  -l python......................Python (async, FastAPI, Starlette, Pydantic,
-                                 Textual, client/serveur multithread, web
-                                 scraping)
-  -l ruby........................Ruby / Ruby on Rails (plus familier que
-                                 Django/Symfony/Laravel)
-  -l perl........................Perl (systeme, reseau, client/serveur
-                                 multithread, IRC bots)
-  -l php.........................PHP (systeme, reseau, MVC, framework CMF
-                                 maison)
-  -l r...........................R (data mining, machine learning,
-                                 modelisation predictive)
-  -l vimscript...................VimScript (expert: async jobs, submodules,
-                                 2k+ lignes)
-  -l bash........................Bash (frameworks modulaires, Mise/Fnox)
-  -l ansible.....................Ansible (roles, collections, Mitogen)
-  -l c...........................C/C++ (systems programming, network
-                                 internals, embedded Arduino/ESP)
-  -l java........................Java / Groovy (Jenkins pipelines, automation
-                                 CI)
-  -l prolog......................Prolog / Datalog (logique declarative)
-  -l z3-solver...................Z3 solver (SMT, verification, constraint
-                                 solving)
-  -l x86-assembly................x86 assembly (DOS, reverse engineering
-                                 basique)
-  -l basic.......................BASIC (Thomson TO7/MO5, Laser 500, Amstrad
-                                 CPC 6128+, QBasic)
-  -l javascript..................JavaScript / Node.js
+  -l python
+       Python (async, FastAPI, Starlette, Pydantic, Textual, client/serveur
+       multithread, web scraping)
+
+  -l ruby
+       Ruby / Ruby on Rails (plus familier que Django/Symfony/Laravel)
+
+  -l perl
+       Perl (systeme, reseau, client/serveur multithread, IRC bots)
+
+  -l php
+       PHP (systeme, reseau, MVC, framework CMF maison)
+
+  -l r
+       R (data mining, machine learning, modelisation predictive)
+
+  -l vimscript
+       VimScript (expert: async jobs, submodules, 2k+ lignes)
+
+  -l bash
+       Bash (frameworks modulaires, Mise/Fnox)
+
+  -l ansible
+       Ansible (roles, collections, Mitogen)
+
+  -l c
+       C/C++ (systems programming, network internals, embedded Arduino/ESP)
+
+  -l java
+       Java / Groovy (Jenkins pipelines, automation CI)
+
+  -l prolog
+       Prolog / Datalog (logique declarative)
+
+  -l z3-solver
+       Z3 solver (SMT, verification, constraint solving)
+
+  -l x86-assembly
+       x86 assembly (DOS, reverse engineering basique)
+
+  -l basic
+       BASIC (Thomson TO7/MO5, Laser 500, Amstrad CPC 6128+, QBasic)
+
+  -l javascript
+       JavaScript / Node.js
 ```
 
 ### Platforms
 
 ```text
-  -p docker-swarm................Docker Swarm (multi-stack, TLS, MACVLAN,
-                                 bare-metal PXE)
-  -p kubernetes..................Kubernetes (CKA level, operators)
-  -p nomad.......................Nomad
-  -p podman......................Podman, LXC, libvirt, QEMU/KVM
-  -p proxmox.....................Proxmox
-  -p traefik.....................Traefik
-  -p nixos.......................NixOS, Arch Linux, Gentoo, AlmaLinux
+  -p docker-swarm
+       Docker Swarm (multi-stack, TLS, MACVLAN, bare-metal PXE)
+
+  -p kubernetes
+       Kubernetes (CKA level, operators)
+
+  -p nomad
+       Nomad
+
+  -p podman
+       Podman, LXC, libvirt, QEMU/KVM
+
+  -p proxmox
+       Proxmox
+
+  -p traefik
+       Traefik
+
+  -p nixos
+       NixOS, Arch Linux, Gentoo, AlmaLinux
 ```
 
 ### AI/ML
 
 ```text
-  -a multi-agent-llm-orchestration..Multi-agent LLM orchestration (coder panel
-                                    consensus lead)
-  -a rag.........................RAG (pgvector, sqlite-vec), sandbox Docker,
-                                 streaming SSE
-  -a quota.......................Quota/governance, TUI (Textual), CI/CD
-  -a modelisation-predictive.....Modelisation predictive (meteo, forex,
-                                 crypto)
+  -a multi-agent-llm-orchestration
+       Multi-agent LLM orchestration (coder panel consensus lead)
+
+  -a rag
+       RAG (pgvector, sqlite-vec), sandbox Docker, streaming SSE
+
+  -a quota
+       Quota/governance, TUI (Textual), CI/CD
+
+  -a modelisation-predictive
+       Modelisation predictive (meteo, forex, crypto)
 ```
 
 ### Security
 
 ```text
-  -s sandbox-docker..............Sandbox Docker (--network none --read-only
-                                 caps drop)
-  -s zip-slip-protection.........Zip-slip protection, mTLS, secrets management
-                                 (age, fnox)
-  -s bug-hunting-platform........Bug hunting platform (GraphQL, WebSocket
-                                 shell, Traefik API)
-  -s ssh.........................SSH, GPG, OpenSSL, nmap, OpenVAS
+  -s sandbox-docker
+       Sandbox Docker (--network none --read-only caps drop)
+
+  -s zip-slip-protection
+       Zip-slip protection, mTLS, secrets management (age, fnox)
+
+  -s bug-hunting-platform
+       Bug hunting platform (GraphQL, WebSocket shell, Traefik API)
+
+  -s ssh
+       SSH, GPG, OpenSSL, nmap, OpenVAS
 ```
 
 ### Observability
 
 ```text
-  -o victoriametrics.............VictoriaMetrics, VictoriaLogs, Grafana,
-                                 OpenTelemetry, ARA
-  -o couchdb.....................CouchDB
+  -o victoriametrics
+       VictoriaMetrics, VictoriaLogs, Grafana, OpenTelemetry, ARA
+
+  -o couchdb
+       CouchDB
 ```
 
 ### Tooling
 
 ```text
-  -t mise........................Mise, Fnox, Starship, Textual, pytest, GitLab
-                                 CI, GitHub Actions
-  -t opentofu....................OpenTofu, OpenBao
-  -t vim.........................Vim
+  -t mise
+       Mise, Fnox, Starship, Textual, pytest, GitLab CI, GitHub Actions
+
+  -t opentofu
+       OpenTofu, OpenBao
+
+  -t vim
+       Vim
 ```
 
 ## EXAMPLES
@@ -299,4 +348,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T22:13:12 from `profile.yaml`*
+*Generated on 2026-07-02T00:27:03 from `profile.yaml`*
