@@ -178,6 +178,18 @@ def render(p: dict) -> str:
         parts.append(f"**{label}:** {value}  ")
     parts.append("")
 
+    # --- BIO (origin story) ---
+    if "bio" in p and p["bio"]:
+        parts.append("### Origin")
+        parts.append("")
+        for line in p["bio"].strip().split("\n"):
+            line = line.strip()
+            if line == "":
+                parts.append("")
+            else:
+                parts.append(wrap(line))
+        parts.append("")
+
     # --- STACK (badges grouped) ---
     if "badges" in p and p["badges"]:
         parts.append("## STACK")

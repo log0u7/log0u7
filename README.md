@@ -39,6 +39,39 @@ Java, R, Prolog, VimScript).
 **Since:** 1998  
 **Domain:** Platform Engineering / AI/ML / Security Tooling  
 
+### Origin
+
+Ne en 1984. En primaire, y'avait des Thomson TO7/MO5 a l'ecole
+(merci le plan Informatique pour Tous). On les scotchait plus
+qu'on les programmait, mais le BASIC est entre par la.
+
+A 7-8 ans, le VTech Laser 500 de mon pere avec son lecteur de
+cassette K7. 15 minutes pour charger, une priere a chaque LOAD ""
+pour que ca plante pas. Premier vrai ordi a la maison. Des programmes
+d'agenda, de calculatrice, des jeux de texte, des fractales en BASIC.
+
+A 10 ans, ma tante me file son Amstrad CPC 6128+. Le lecteur de
+disquette 3 pouces, le Basic, le CP/M. Je code des trucs qui
+servent a rien mais qui sont a moi.
+
+En 1993, DOOM debarque. Pas chez moi, chez moi y'a un CPC.
+Mais a l'ecole primaire, y'a un 486DX2/66 avec 4 MB de RAM et
+une Sound Blaster. Ce jour-la, je comprends que la machine peut
+faire des mondes en vraie 3D. Plus rien ne sera pareil.
+
+A partir de 1996
+Premier PC perso (Pentium, puis AMD K6). Le C, l'asm. Quake,
+Quake 2, Quake 3, Unreal Tournament 99. Les BBS et newsgroups
+laissent place au web, les forums emergent. Moi je reste colle
+a IRC, a coder des bots en Perl.
+
+Courant 2000
+Counter Strike. Organisation de LAN parties. Decouverte de Linux
+et des install parties. Et puis PHP, Python, Ruby.
+
+30 ans plus tard, je concois toujours des plateformes mais avec
+des agents LLM et du ML predictif.
+
 ## STACK
 
     --- Infra / Containers ---
@@ -245,4 +278,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T19:22:12 from `profile.yaml`*
+*Generated on 2026-07-01T21:44:59 from `profile.yaml`*
