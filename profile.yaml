@@ -14,27 +14,56 @@ bio: |
 
   A 7-8 ans, le VTech Laser 500 de mon pere avec son lecteur de
   cassette K7. 15 minutes pour charger, une priere a chaque LOAD ""
-  pour que ca plante pas. Premier vrai ordi a la maison. Des programmes
-  d'agenda, de calculatrice, des jeux de texte, des fractales en BASIC.
+  pour que ca plante pas. La formation BASIC Scheidegger en mallette
+  grise, le magneto, les exercices sur cassette. Premier vrai ordi
+  a la maison. Des programmes d'agenda, de calculatrice, des jeux
+  de texte, des fractales en BASIC.
 
   A 10 ans, ma tante me file son Amstrad CPC 6128+. Le lecteur de
-  disquette 3 pouces, le Basic, le CP/M. Je code des trucs qui
+  disquette 3 pouces, le Basic, le CP/M. Et leurs livres de listings
+  BASIC a taper soi-meme: "Faites vos jeux avec Amstrad", Sybex
+  Jeux d'Action... des pages de code, des coquilles a chaque page,
+  des heures a debugger des typos d'editeur. Je code des trucs qui
   servent a rien mais qui sont a moi.
 
-  En 1993, DOOM debarque. Pas chez moi, chez moi y'a un CPC.
-  Mais a l'ecole primaire, y'a un 486DX2/66 avec 4 MB de RAM et
-  une Sound Blaster. Ce jour-la, je comprends que la machine peut
+  1993, DOOM debarque. Pas chez moi, chez moi y'a un CPC.
+  Mais a l'ecole, y'a un 486DX2/66 avec 4 MB de RAM et une
+  Sound Blaster. Ce jour-la, je comprends que la machine peut
   faire des mondes en vraie 3D. Plus rien ne sera pareil.
 
-  A partir de 1996
-  Premier PC perso (Pentium, puis AMD K6). Le C, l'asm. Quake,
-  Quake 2, Quake 3, Unreal Tournament 99. Les BBS et newsgroups
-  laissent place au web, les forums emergent. Moi je reste colle
-  a IRC, a coder des bots en Perl.
+  1996-97: premier PC perso (Pentium, puis AMD K6). Warcraft 1 &
+  2 tombent sur le disque dur. Le C, l'asm. Quake, Quake 2.
+  Les BBS et newsgroups laissent place au web.
 
-  Courant 2000
-  Counter Strike. Organisation de LAN parties. Decouverte de Linux
-  et des install parties. Et puis PHP, Python, Ruby.
+  1998: StarCraft et Brood War. Trois races parfaitement
+  equilibrees, des soirees entieres a micro-gerer.
+
+  1999: Quake 3, Unreal Tournament. Et Counter-Strike, pose
+  sur le moteur de Half-Life, qui invente le tactical FPS
+  en ligne.
+
+  2000: CS organise. LAN parties. Decouverte de Linux et des
+  install parties. Et puis PHP, Python, Ruby.
+
+  Apres 2001: l'ere MMO. T4C (The 4th Coming, la 4eme
+  prophetie), DAoC. Des nuits a farmer, du PvP, des guildes,
+  des mondes qui tournent meme quand t'es pas la. Pas touche
+  a WoW a l'epoque.
+
+  2008-2010: un serveur prive WoW sous MaNGOS sur VPS. Des
+  compilations interminables a faire saturer le CPU, CMake qui
+  chialle, un dossier build qui bouffe le disque. La base MySQL
+  a gerer: accounts, characters, item_template, quest_template.
+  Distribution du realmlist.wtf a la commu, une page web pour
+  le launcher, un systeme d'inscription, des events custom en SQL.
+  Une vraie commu derriere: game masters, scripteurs qui pondent
+  objets et quetes, debug du core, optimisation. Hebergement,
+  admin, management - tout en autodidacte.
+
+  Apres 2010: industrialisation du deployement de serveurs
+  TeamSpeak et Mumble, serveurs Steam pour CS:GO et ARK.
+  Maintenance d'une commu ARK cross-serveurs: plugins,
+  events GM, wipes synchronises, configs centralisees.
 
   30 ans plus tard, je concois toujours des plateformes mais avec
   des agents LLM et du ML predictif.
