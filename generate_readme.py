@@ -17,52 +17,54 @@ MAN_SECTION = "User Commands"
 
 
 BADGE_GROUPS = [
-    ("Languages / Runtimes", [
+    ("Languages", [
         "Python", "Ruby", "Perl", "PHP", "C", "C++", "R",
-        "JavaScript", "Node.js", "Shell Script", "Markdown",
+        "JavaScript", "Node.js", "Bash", "POSIX sh",
+        "awk", "lex/yacc/bison", "Markdown",
     ]),
-    ("Shell / Terminal", [
-        "Bash", "POSIX sh", "tmux", "GNU Screen", "Starship",
+    ("Environment", [
+        "tmux", "GNU Screen", "Starship",
     ]),
     ("AI / ML", [
         "Anthropic", "Claude", "OpenAI", "Ollama",
-        "PyTorch", "scikit-learn", "pandas", "NumPy",
+        "PyTorch", "pandas", "NumPy",
     ]),
     ("Infra / Containers", [
-        "Linux", "GNU", "systemd", "Make", "CMake",
-        "Arduino", "PlatformIO",
+        "Linux", "GNU", "systemd", "Make", "CMake", "Arduino",
         "Vagrant", "Packer", "Docker", "Podman", "LXC", "libvirt", "QEMU",
         "Kubernetes", "Nomad", "Proxmox",
     ]),
     ("IaC / Automation", [
-        "Ansible", "OpenTofu", "OpenBao",
+        "Ansible", "Salt", "Puppet", "Chef", "OpenTofu", "Foreman", "Consul",
     ]),
     ("Observability / Monitoring", [
         "Prometheus", "Grafana", "VictoriaMetrics", "VictoriaLogs",
-        "OpenTelemetry", "Loki", "Tempo", "Jaeger", "CouchDB",
+        "OpenTelemetry", "Loki", "Tempo", "Jaeger",
     ]),
     ("Databases", [
-        "MariaDB", "MySQL", "Postgres", "Redis", "SQLite",
+        "MariaDB", "MySQL", "Postgres", "Redis", "SQLite", "CouchDB",
     ]),
     ("Security", [
-        "SSH", "GPG", "OpenSSL", "nmap", "OpenVAS",
+        "SSH", "GPG", "OpenSSL", "OpenBao",
+        "nmap", "netcat", "OpenVAS",
         "Wireshark", "Metasploit", "Burp Suite", "Hashcat",
     ]),
     ("Reverse Engineering / Debugging", [
-        "radare2", "Ghidra", "GDB", "DDD", "binwalk",
+        "radare2", "Ghidra", "GDB", "DDD", "Metasm", "Scapy", "binwalk",
     ]),
     ("Networking / VPN / Firewall", [
         "WireGuard", "OpenVPN",
         "iptables", "nftables", "pf",
         "m0n0wall", "pfSense", "OPNsense", "OpenWrt", "PowerDNS",
     ]),
-    ("Proxy / LB / Storage", [
-        "HAProxy", "Varnish", "Squid",
-        "Traefik", "Apache", "Nginx",
-        "GlusterFS", "Consul", "Foreman",
+    ("Proxy / LB / Web", [
+        "Traefik", "Apache", "Nginx", "HAProxy", "Varnish", "Squid",
+        "GlusterFS",
     ]),
     ("Cloud", [
-        "AWS", "Google Cloud",
+        "AWS", "Google Cloud", "OVHcloud", "Alibaba Cloud", "Yandex Cloud",
+        "Vultr", "DigitalOcean", "Hetzner", "Scaleway",
+        "Selectel", "IBM Cloud", "Oracle Cloud",
     ]),
     ("VCS / CI", [
         "Git", "GitLab", "GitHub", "GitHub Actions", "GitLab CI",
@@ -234,10 +236,12 @@ def render(p: dict) -> str:
     skill_groups = p.get("stack", {})
     group_map = [
         ("Languages", "-l", "languages"),
-        ("Platforms", "-p", "platforms"),
+        ("Runtimes", "-r", "runtimes"),
+        ("IaC", "-i", "iac"),
         ("AI/ML", "-a", "ai_ml"),
-        ("Security", "-s", "security"),
+        ("Security", "-x", "security"),
         ("Observability", "-o", "observability"),
+        ("Databases", "-d", "databases"),
         ("Tooling", "-t", "tooling"),
     ]
 
