@@ -11,7 +11,7 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 `log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
 
-*Updated: 2026-07-01*
+*Updated: 2026-07-02*
 
 ## NAME
 
@@ -212,26 +212,26 @@ figure it out, build it, run it.
 
 ```text
   -l python
-       Python (async, FastAPI, Starlette, Pydantic, Textual, client/serveur
-       multithread, web scraping)
+       Python (async, FastAPI, Starlette, Pydantic, Textual, multithreaded
+       client/server, web scraping)
 
   -l ruby
-       Ruby / Ruby on Rails (plus familier que Django/Symfony/Laravel)
+       Ruby / Ruby on Rails (more familiar than Django/Symfony/Laravel)
 
   -l perl
-       Perl (systeme, reseau, client/serveur multithread, IRC bots)
+       Perl (systems, network, multithreaded client/server, IRC bots)
 
   -l php
-       PHP (systeme, reseau, MVC, framework CMF maison)
+       PHP (systems, network, MVC, custom CMF framework)
 
   -l r
-       R (data mining, machine learning, modelisation predictive)
+       R (data mining, machine learning, predictive modeling)
 
   -l vimscript
-       VimScript (expert: async jobs, submodules, 2k+ lignes)
+       VimScript (async jobs, submodules, 2k+ lines)
 
   -l bash
-       Bash (frameworks modulaires, Mise/Fnox)
+       Bash (modular frameworks, Mise/Fnox)
 
   -l ansible
        Ansible (roles, collections, Mitogen)
@@ -240,16 +240,16 @@ figure it out, build it, run it.
        C/C++ (systems programming, network internals, embedded Arduino/ESP)
 
   -l java
-       Java / Groovy (Jenkins pipelines, automation CI)
+       Java / Groovy (Jenkins pipelines, CI automation)
 
   -l prolog
-       Prolog / Datalog (logique declarative)
+       Prolog / Datalog (declarative logic programming)
 
   -l z3-solver
        Z3 solver (SMT, verification, constraint solving)
 
   -l x86-assembly
-       x86 assembly (DOS, reverse engineering basique)
+       x86 assembly (DOS, basic reverse engineering)
 
   -l basic
        BASIC (Thomson TO7/MO5, Laser 500, Amstrad CPC 6128+, QBasic)
@@ -290,20 +290,20 @@ figure it out, build it, run it.
        Multi-agent LLM orchestration (coder panel consensus lead)
 
   -a rag
-       RAG (pgvector, sqlite-vec), sandbox Docker, streaming SSE
+       RAG (pgvector, sqlite-vec), Docker sandbox, streaming SSE
 
   -a quota
        Quota/governance, TUI (Textual), CI/CD
 
-  -a modelisation-predictive
-       Modelisation predictive (meteo, forex, crypto)
+  -a predictive-modeling
+       Predictive modeling (weather, forex, crypto)
 ```
 
 ### Security
 
 ```text
-  -s sandbox-docker
-       Sandbox Docker (--network none --read-only caps drop)
+  -s docker-sandbox
+       Docker sandbox (--network none --read-only, caps drop)
 
   -s zip-slip-protection
        Zip-slip protection, mTLS, secrets management (age, fnox)
@@ -402,4 +402,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T23:17:06 from `profile.yaml`*
+*Generated on 2026-07-02T01:20:11 from `profile.yaml`*
