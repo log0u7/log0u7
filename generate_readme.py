@@ -67,14 +67,16 @@ def render(p: dict) -> str:
     # --- NAME ---
     parts.append("## NAME")
     parts.append("")
-    parts.append(f"**{id_['handle']}** - {p['summary']}")
+    parts.append(f"**{id_['handle']}** - {id_['title']}")
     parts.append("")
 
     # --- SYNOPSIS ---
     parts.append("## SYNOPSIS")
     parts.append("")
     parts.append("```bash")
-    parts.append(f"$ {id_['handle']} [OPTIONS] [PROJECT]")
+    parts.append(f'$ {id_["handle"]} [OPTIONS] [PROJECT]')
+    parts.append(f'$ {id_["handle"]} --ai orchestration --platform kubernetes')
+    parts.append(f'$ {id_["handle"]} --output manpage --section EXAMPLES')
     parts.append("```")
     parts.append("")
 
@@ -87,7 +89,6 @@ def render(p: dict) -> str:
     details = [
         ("Handle", f'`{id_["handle"]}`'),
         ("Name", id_["name"]),
-        ("Email", f'`{id_["email"]}`'),
         ("Location", id_["location"]),
         ("Since", id_["since"]),
         ("Domain", "Platform Engineering / AI/ML / Security Tooling"),
@@ -159,9 +160,9 @@ def render(p: dict) -> str:
     parts.append("")
     parts.append("Report issues via GitHub Issues on the relevant project repository.")
     parts.append("")
-    if "email" in p.get("links", {}):
-        email = p["links"]["email"]
-        parts.append(f"Contact: [{email}]({email})")
+    website = p.get("links", {}).get("website", "")
+    if website:
+        parts.append(f"Contact: [{website}]({website})")
     parts.append("")
 
     # --- FOOTER ---
