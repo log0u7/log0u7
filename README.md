@@ -79,7 +79,7 @@ later I still build platforms, now with LLM agents and predictive ML.
 
 ## STACK
 
-    --- Infra / Containers ---
+### Infra / Containers
 
     ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white)
     ![Packer](https://img.shields.io/badge/packer-%23E7EEF0.svg?style=for-the-badge&logo=packer&logoColor=%2302A8EF)
@@ -95,7 +95,7 @@ later I still build platforms, now with LLM agents and predictive ML.
     ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
     ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
-    --- Observability / Monitoring ---
+### Observability / Monitoring
 
     ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
     ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
@@ -103,20 +103,20 @@ later I still build platforms, now with LLM agents and predictive ML.
     ![VictoriaLogs](https://img.shields.io/badge/VictoriaLogs-3F8CE0?style=for-the-badge&logo=victoriametrics&logoColor=white)
     ![CouchDB](https://img.shields.io/badge/CouchDB-447E9B?style=for-the-badge&logo=couchdb&logoColor=white)
 
-    --- IaC / Automation ---
+### IaC / Automation
 
     ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
     ![OpenTofu](https://img.shields.io/badge/OpenTofu-7B42BC?style=for-the-badge&logo=opentofu&logoColor=white)
     ![OpenBao](https://img.shields.io/badge/OpenBao-1D3557?style=for-the-badge&logo=hashicorp&logoColor=white)
 
-    --- Languages / Runtimes ---
+### Languages / Runtimes
 
     ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
     ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
     ![Markdown](https://img.shields.io/badge/markdown-083FA1?style=for-the-badge&logo=markdown&logoColor=white)
     ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
 
-    --- Databases ---
+### Databases
 
     ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
     ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -124,7 +124,7 @@ later I still build platforms, now with LLM agents and predictive ML.
     ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
     ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-    --- Security ---
+### Security
 
     ![SSH](https://img.shields.io/badge/SSH-4E9A06?style=for-the-badge&logo=openssh&logoColor=white)
     ![GPG](https://img.shields.io/badge/GPG-0093DD?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
@@ -132,12 +132,12 @@ later I still build platforms, now with LLM agents and predictive ML.
     ![nmap](https://img.shields.io/badge/nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
     ![OpenVAS](https://img.shields.io/badge/OpenVAS-4CAF50?style=for-the-badge&logo=openvas&logoColor=white)
 
-    --- Cloud ---
+### Cloud
 
     ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
     ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 
-    --- VCS / CI ---
+### VCS / CI
 
     ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
     ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
@@ -145,12 +145,12 @@ later I still build platforms, now with LLM agents and predictive ML.
     ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
     ![GitLab CI](https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 
-    --- Editors / IDEs ---
+### Editors / IDEs
 
     ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
     ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
 
-    --- Distributions ---
+### Distributions
 
     ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
     ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
@@ -280,4 +280,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T20:40:29 from `profile.yaml`*
+*Generated on 2026-07-01T23:22:56 from `profile.yaml`*

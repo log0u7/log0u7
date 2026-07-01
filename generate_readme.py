@@ -99,7 +99,7 @@ def render_badge_groups(badges: list) -> str:
                 found.append(flat[tech])
                 assigned.add(tech)
         if found:
-            lines.append(f"    --- {group_title} ---")
+            lines.append(f"### {group_title}")
             lines.append("")
             for b in found:
                 lines.append(f"    {b}")
