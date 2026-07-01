@@ -11,7 +11,7 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 `log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
 
-*Updated: 2026-07-01*
+*Updated: 2026-07-02*
 
 ## NAME
 
@@ -34,15 +34,20 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 **Handle:** `log0u7`  
 **Name:** G.K.E.  
 **Location:** France  
-**Since:** 1998  
+**Since:** 1984  
 **Domain:** Platform Engineering / AI/ML / Security Tooling  
 
 ### Origin
 
-Born in 1984. First contact with a machine came around 1990-91 at primary
-school: Thomson TO7/MO5 units, the "Informatique pour Tous" plan, mostly
-sticking tape on the keyboards rather than shipping code, but BASIC snuck in
-anyway.
+Born in 1984. The fascination started before any keyboard. TV commercials for
+home computers, the director's machine at nursery school glimpsed through a
+half-open door, NES and MasterSystem controllers at friends' houses: the
+screens were already there, doing things, long before I knew how to make them
+do anything I wanted.
+
+First actual contact came around 1990-91 at primary school: Thomson TO7/MO5
+units, the "Informatique pour Tous" plan, mostly sticking tape on the
+keyboards rather than shipping code, but BASIC snuck in anyway.
 
 The real thing came a year or two later. My father brought home a VTech Laser
 500: cassette deck, fifteen-minute load times, a Scheidegger BASIC course in a
@@ -61,13 +66,22 @@ publisher typos. You typed pages of code, hit RUN, got a syntax error on line
 340, and debugged it for hours. That was the curriculum. No Stack Overflow. No
 forums. Just the listing and the machine.
 
+Around 1995-96, while everyone else was on PlayStation, I was on Super
+Nintendo with an Action Replay 2. Not to cheat, or not only: to understand
+what the codes actually did, which memory addresses they patched, what
+happened when you changed a byte. Freeze the game, inspect the value, modify
+it, see what broke. That was the first real taste of reverse engineering,
+before I had a word for it, before I had a PC, before I had x86 assembly. Just
+a cartridge, a code device, and a question.
+
 1996-97: first personal PC, Pentium then AMD K6. Warcraft 1 and 2, C, x86
 assembly, Quake, Quake 2. BBS and newsgroups slowly dissolving into the web.
-1998: StarCraft and Brood War, three perfectly balanced races, entire nights
-of micro-management. 1999: Quake 3, Unreal Tournament, Counter-Strike on the
-Half-Life engine, the tactical FPS online, invented in a garage. 2000:
-organized CS with a clan, LAN parties, Linux install parties, then PHP,
-Python, Ruby.
+The Action Replay habit followed onto PlayStation and then the PC: same
+instinct, better tools. 1998: StarCraft and Brood War, three perfectly
+balanced races, entire nights of micro-management. 1999: Quake 3, Unreal
+Tournament, Counter-Strike on the Half-Life engine, the tactical FPS online,
+invented in a garage. 2000: organized CS with a clan, LAN parties, Linux
+install parties, then PHP, Python, Ruby.
 
 Post-2001: the MMO era hit hard. T4C (The 4th Coming), then DAoC, nights of
 farming and PvP in persistent worlds that kept turning when you logged off. No
@@ -388,4 +402,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T23:12:12 from `profile.yaml`*
+*Generated on 2026-07-02T01:16:42 from `profile.yaml`*
