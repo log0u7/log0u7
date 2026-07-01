@@ -17,24 +17,49 @@ MAN_SECTION = "User Commands"
 
 
 BADGE_GROUPS = [
-    ("Infra / Containers", [
-        "Vagrant", "Packer", "Docker", "Podman", "LXC", "libvirt", "QEMU",
-        "Kubernetes", "Nomad", "Proxmox", "Traefik", "Apache", "Nginx",
+    ("Languages / Runtimes", [
+        "Python", "Ruby", "Perl", "PHP", "C", "C++", "R",
+        "JavaScript", "Node.js", "Shell Script", "Markdown",
     ]),
-    ("Observability / Monitoring", [
-        "Prometheus", "Grafana", "VictoriaMetrics", "VictoriaLogs", "CouchDB",
+    ("Shell / Terminal", [
+        "Bash", "POSIX sh", "tmux", "GNU Screen", "Starship",
+    ]),
+    ("AI / ML", [
+        "Anthropic", "Claude", "OpenAI", "Ollama",
+        "PyTorch", "scikit-learn", "pandas", "NumPy",
+    ]),
+    ("Infra / Containers", [
+        "Linux", "GNU", "systemd", "Make", "CMake",
+        "Arduino", "PlatformIO",
+        "Vagrant", "Packer", "Docker", "Podman", "LXC", "libvirt", "QEMU",
+        "Kubernetes", "Nomad", "Proxmox",
     ]),
     ("IaC / Automation", [
         "Ansible", "OpenTofu", "OpenBao",
     ]),
-    ("Languages / Runtimes", [
-        "Python", "Shell Script", "Markdown", "Vim",
+    ("Observability / Monitoring", [
+        "Prometheus", "Grafana", "VictoriaMetrics", "VictoriaLogs",
+        "OpenTelemetry", "Loki", "Tempo", "Jaeger", "CouchDB",
     ]),
     ("Databases", [
         "MariaDB", "MySQL", "Postgres", "Redis", "SQLite",
     ]),
     ("Security", [
         "SSH", "GPG", "OpenSSL", "nmap", "OpenVAS",
+        "Wireshark", "Metasploit", "Burp Suite", "Hashcat",
+    ]),
+    ("Reverse Engineering / Debugging", [
+        "radare2", "Ghidra", "GDB", "DDD", "binwalk",
+    ]),
+    ("Networking / VPN / Firewall", [
+        "WireGuard", "OpenVPN",
+        "iptables", "nftables", "pf",
+        "m0n0wall", "pfSense", "OPNsense", "OpenWrt", "PowerDNS",
+    ]),
+    ("Proxy / LB / Storage", [
+        "HAProxy", "Varnish", "Squid",
+        "Traefik", "Apache", "Nginx",
+        "GlusterFS", "Consul", "Foreman",
     ]),
     ("Cloud", [
         "AWS", "Google Cloud",
@@ -43,7 +68,7 @@ BADGE_GROUPS = [
         "Git", "GitLab", "GitHub", "GitHub Actions", "GitLab CI",
     ]),
     ("Editors / IDEs", [
-        "Visual Studio Code", "Vim",
+        "Neovim", "Vim", "Visual Studio Code", "OpenCode",
     ]),
     ("Distributions", [
         "Debian", "Ubuntu", "AlmaLinux", "Alpine Linux",
@@ -230,7 +255,19 @@ def render(p: dict) -> str:
             raw = raw.split("/")[0].strip()
             flag_name = raw.lower().replace(" ", "-")
             dots = "." * max(2, 28 - len(flag_name))
-            parts.append(f"  {short_flag} {flag_name}{dots}{item}")
+            prefix = f"  {short_flag} {flag_name}{dots}"
+            indent = " " * len(prefix)
+            line = f"{prefix}{item}"
+            if len(line) <= WIDTH:
+                parts.append(line)
+            else:
+                wrapped = textwrap.fill(
+                    item,
+                    width=WIDTH,
+                    initial_indent=prefix,
+                    subsequent_indent=indent,
+                )
+                parts.append(wrapped)
         parts.append("```")
         parts.append("")
 

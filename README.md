@@ -11,7 +11,7 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 `log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
 
-*Updated: 2026-07-01*
+*Updated: 2026-07-02*
 
 ## NAME
 
@@ -86,21 +86,29 @@ instinct is the same: figure it out, build it, run it.
 
 ## STACK
 
+### Languages / Runtimes
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-083FA1?style=for-the-badge&logo=markdown&logoColor=white)
+
+### Shell / Terminal
+
+![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnubash&logoColor=white) ![POSIX sh](https://img.shields.io/badge/POSIX_sh-333333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white) ![GNU Screen](https://img.shields.io/badge/GNU_Screen-A42E2B?style=for-the-badge&logo=gnu&logoColor=white) ![Starship](https://img.shields.io/badge/starship-DD0B78?style=for-the-badge&logo=starship&logoColor=white)
+
+### AI / ML
+
+![Anthropic](https://img.shields.io/badge/anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white) ![Claude](https://img.shields.io/badge/claude-D97757?style=for-the-badge&logo=claude&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![Ollama](https://img.shields.io/badge/ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikitlearn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+
 ### Infra / Containers
 
-![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white) ![Packer](https://img.shields.io/badge/packer-%23E7EEF0.svg?style=for-the-badge&logo=packer&logoColor=%2302A8EF) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Podman](https://img.shields.io/badge/Podman-8929D0?style=for-the-badge&logo=podman&logoColor=white) ![LXC](https://img.shields.io/badge/LXC-009688?style=for-the-badge&logo=linuxcontainers&logoColor=white) ![libvirt](https://img.shields.io/badge/libvirt-FF6600?style=for-the-badge&logo=libvirt&logoColor=white) ![QEMU](https://img.shields.io/badge/QEMU-FF5733?style=for-the-badge&logo=qemu&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Nomad](https://img.shields.io/badge/Nomad-00A3E0?style=for-the-badge&logo=nomad&logoColor=white) ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white) ![Traefik](https://img.shields.io/badge/Traefik-249EA6?style=for-the-badge&logo=traefik&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-
-### Observability / Monitoring
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![VictoriaMetrics](https://img.shields.io/badge/VictoriaMetrics-3F8CE0?style=for-the-badge&logo=victoriametrics&logoColor=white) ![VictoriaLogs](https://img.shields.io/badge/VictoriaLogs-3F8CE0?style=for-the-badge&logo=victoriametrics&logoColor=white) ![CouchDB](https://img.shields.io/badge/CouchDB-447E9B?style=for-the-badge&logo=couchdb&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![GNU](https://img.shields.io/badge/GNU-A42E2B?style=for-the-badge&logo=gnu&logoColor=white) ![systemd](https://img.shields.io/badge/systemd-000000?style=for-the-badge&logo=systemd&logoColor=white) ![Make](https://img.shields.io/badge/make-6D00CC?style=for-the-badge&logo=make&logoColor=white) ![CMake](https://img.shields.io/badge/cmake-064F8C?style=for-the-badge&logo=cmake&logoColor=white) ![Arduino](https://img.shields.io/badge/arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white) ![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white) ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white) ![Packer](https://img.shields.io/badge/packer-%23E7EEF0.svg?style=for-the-badge&logo=packer&logoColor=%2302A8EF) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Podman](https://img.shields.io/badge/Podman-8929D0?style=for-the-badge&logo=podman&logoColor=white) ![LXC](https://img.shields.io/badge/LXC-009688?style=for-the-badge&logo=linuxcontainers&logoColor=white) ![libvirt](https://img.shields.io/badge/libvirt-FF6600?style=for-the-badge&logo=libvirt&logoColor=white) ![QEMU](https://img.shields.io/badge/QEMU-FF5733?style=for-the-badge&logo=qemu&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Nomad](https://img.shields.io/badge/Nomad-00A3E0?style=for-the-badge&logo=nomad&logoColor=white) ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 
 ### IaC / Automation
 
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) ![OpenTofu](https://img.shields.io/badge/OpenTofu-7B42BC?style=for-the-badge&logo=opentofu&logoColor=white) ![OpenBao](https://img.shields.io/badge/OpenBao-1D3557?style=for-the-badge&logo=hashicorp&logoColor=white)
 
-### Languages / Runtimes
+### Observability / Monitoring
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-083FA1?style=for-the-badge&logo=markdown&logoColor=white) ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![VictoriaMetrics](https://img.shields.io/badge/VictoriaMetrics-3F8CE0?style=for-the-badge&logo=victoriametrics&logoColor=white) ![VictoriaLogs](https://img.shields.io/badge/VictoriaLogs-3F8CE0?style=for-the-badge&logo=victoriametrics&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-3D348B?style=for-the-badge&logo=opentelemetry&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white) ![Tempo](https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white) ![Jaeger](https://img.shields.io/badge/Jaeger-66CFE1?style=for-the-badge&logo=jaeger&logoColor=white) ![CouchDB](https://img.shields.io/badge/CouchDB-447E9B?style=for-the-badge&logo=couchdb&logoColor=white)
 
 ### Databases
 
@@ -108,7 +116,19 @@ instinct is the same: figure it out, build it, run it.
 
 ### Security
 
-![SSH](https://img.shields.io/badge/SSH-4E9A06?style=for-the-badge&logo=openssh&logoColor=white) ![GPG](https://img.shields.io/badge/GPG-0093DD?style=for-the-badge&logo=gnuprivacyguard&logoColor=white) ![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=for-the-badge&logo=openssl&logoColor=white) ![nmap](https://img.shields.io/badge/nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white) ![OpenVAS](https://img.shields.io/badge/OpenVAS-4CAF50?style=for-the-badge&logo=openvas&logoColor=white)
+![SSH](https://img.shields.io/badge/SSH-4E9A06?style=for-the-badge&logo=openssh&logoColor=white) ![GPG](https://img.shields.io/badge/GPG-0093DD?style=for-the-badge&logo=gnuprivacyguard&logoColor=white) ![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=for-the-badge&logo=openssl&logoColor=white) ![nmap](https://img.shields.io/badge/nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white) ![OpenVAS](https://img.shields.io/badge/OpenVAS-4CAF50?style=for-the-badge&logo=openvas&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white) ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white) ![Hashcat](https://img.shields.io/badge/Hashcat-2B2B2B?style=for-the-badge&logo=hashcat&logoColor=white)
+
+### Reverse Engineering / Debugging
+
+![radare2](https://img.shields.io/badge/radare2-1F2A44?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![Ghidra](https://img.shields.io/badge/Ghidra-FF6600?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![GDB](https://img.shields.io/badge/GDB-A42E2B?style=for-the-badge&logo=gnu&logoColor=white) ![DDD](https://img.shields.io/badge/DDD-A42E2B?style=for-the-badge&logo=gnu&logoColor=white) ![binwalk](https://img.shields.io/badge/binwalk-333333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=)
+
+### Networking / VPN / Firewall
+
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white) ![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white) ![iptables](https://img.shields.io/badge/iptables-333333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![nftables](https://img.shields.io/badge/nftables-333333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![pf](https://img.shields.io/badge/pf_(BSD)-333333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![m0n0wall](https://img.shields.io/badge/m0n0wall-1A237E?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![pfSense](https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white) ![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white) ![OpenWrt](https://img.shields.io/badge/OpenWrt-00B5E2?style=for-the-badge&logo=openwrt&logoColor=white) ![PowerDNS](https://img.shields.io/badge/PowerDNS-333333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=)
+
+### Proxy / LB / Storage
+
+![HAProxy](https://img.shields.io/badge/HAProxy-1F3A8F?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![Varnish](https://img.shields.io/badge/Varnish-4B9CD3?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![Squid](https://img.shields.io/badge/Squid-CE2027?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![Traefik](https://img.shields.io/badge/Traefik-249EA6?style=for-the-badge&logo=traefik&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![GlusterFS](https://img.shields.io/badge/GlusterFS-CE3226?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=) ![Consul](https://img.shields.io/badge/Consul-F24C53?style=for-the-badge&logo=consul&logoColor=white) ![Foreman](https://img.shields.io/badge/Foreman-333333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=)
 
 ### Cloud
 
@@ -120,7 +140,7 @@ instinct is the same: figure it out, build it, run it.
 
 ### Editors / IDEs
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white) ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=for-the-badge&logo=opencode&logoColor=white)
 
 ### Distributions
 
@@ -132,27 +152,40 @@ instinct is the same: figure it out, build it, run it.
 ### Languages
 
 ```text
-  -l python......................Python (async, FastAPI, Starlette, Pydantic, Textual, client/serveur multithread, web scraping)
-  -l ruby........................Ruby / Ruby on Rails (plus familier que Django/Symfony/Laravel)
-  -l perl........................Perl (systeme, reseau, client/serveur multithread, IRC bots)
-  -l php.........................PHP (systeme, reseau, MVC, framework CMF maison)
-  -l r...........................R (data mining, machine learning, modelisation predictive)
-  -l vimscript...................VimScript (expert: async jobs, submodules, 2k+ lignes)
+  -l python......................Python (async, FastAPI, Starlette, Pydantic,
+                                 Textual, client/serveur multithread, web
+                                 scraping)
+  -l ruby........................Ruby / Ruby on Rails (plus familier que
+                                 Django/Symfony/Laravel)
+  -l perl........................Perl (systeme, reseau, client/serveur
+                                 multithread, IRC bots)
+  -l php.........................PHP (systeme, reseau, MVC, framework CMF
+                                 maison)
+  -l r...........................R (data mining, machine learning,
+                                 modelisation predictive)
+  -l vimscript...................VimScript (expert: async jobs, submodules,
+                                 2k+ lignes)
   -l bash........................Bash (frameworks modulaires, Mise/Fnox)
   -l ansible.....................Ansible (roles, collections, Mitogen)
-  -l c...........................C/C++ (systems programming, network internals, embedded Arduino/ESP)
-  -l java........................Java / Groovy (Jenkins pipelines, automation CI)
+  -l c...........................C/C++ (systems programming, network
+                                 internals, embedded Arduino/ESP)
+  -l java........................Java / Groovy (Jenkins pipelines, automation
+                                 CI)
   -l prolog......................Prolog / Datalog (logique declarative)
-  -l z3-solver...................Z3 solver (SMT, verification, constraint solving)
-  -l x86-assembly................x86 assembly (DOS, reverse engineering basique)
-  -l basic.......................BASIC (Thomson TO7/MO5, Laser 500, Amstrad CPC 6128+, QBasic)
+  -l z3-solver...................Z3 solver (SMT, verification, constraint
+                                 solving)
+  -l x86-assembly................x86 assembly (DOS, reverse engineering
+                                 basique)
+  -l basic.......................BASIC (Thomson TO7/MO5, Laser 500, Amstrad
+                                 CPC 6128+, QBasic)
   -l javascript..................JavaScript / Node.js
 ```
 
 ### Platforms
 
 ```text
-  -p docker-swarm................Docker Swarm (multi-stack, TLS, MACVLAN, bare-metal PXE)
+  -p docker-swarm................Docker Swarm (multi-stack, TLS, MACVLAN,
+                                 bare-metal PXE)
   -p kubernetes..................Kubernetes (CKA level, operators)
   -p nomad.......................Nomad
   -p podman......................Podman, LXC, libvirt, QEMU/KVM
@@ -164,32 +197,40 @@ instinct is the same: figure it out, build it, run it.
 ### AI/ML
 
 ```text
-  -a multi-agent-llm-orchestration..Multi-agent LLM orchestration (coder panel consensus lead)
-  -a rag.........................RAG (pgvector, sqlite-vec), sandbox Docker, streaming SSE
+  -a multi-agent-llm-orchestration..Multi-agent LLM orchestration (coder panel
+                                    consensus lead)
+  -a rag.........................RAG (pgvector, sqlite-vec), sandbox Docker,
+                                 streaming SSE
   -a quota.......................Quota/governance, TUI (Textual), CI/CD
-  -a modelisation-predictive.....Modelisation predictive (meteo, forex, crypto)
+  -a modelisation-predictive.....Modelisation predictive (meteo, forex,
+                                 crypto)
 ```
 
 ### Security
 
 ```text
-  -s sandbox-docker..............Sandbox Docker (--network none --read-only caps drop)
-  -s zip-slip-protection.........Zip-slip protection, mTLS, secrets management (age, fnox)
-  -s bug-hunting-platform........Bug hunting platform (GraphQL, WebSocket shell, Traefik API)
+  -s sandbox-docker..............Sandbox Docker (--network none --read-only
+                                 caps drop)
+  -s zip-slip-protection.........Zip-slip protection, mTLS, secrets management
+                                 (age, fnox)
+  -s bug-hunting-platform........Bug hunting platform (GraphQL, WebSocket
+                                 shell, Traefik API)
   -s ssh.........................SSH, GPG, OpenSSL, nmap, OpenVAS
 ```
 
 ### Observability
 
 ```text
-  -o victoriametrics.............VictoriaMetrics, VictoriaLogs, Grafana, OpenTelemetry, ARA
+  -o victoriametrics.............VictoriaMetrics, VictoriaLogs, Grafana,
+                                 OpenTelemetry, ARA
   -o couchdb.....................CouchDB
 ```
 
 ### Tooling
 
 ```text
-  -t mise........................Mise, Fnox, Starship, Textual, pytest, GitLab CI, GitHub Actions
+  -t mise........................Mise, Fnox, Starship, Textual, pytest, GitLab
+                                 CI, GitHub Actions
   -t opentofu....................OpenTofu, OpenBao
   -t vim.........................Vim
 ```
@@ -258,4 +299,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T21:53:03 from `profile.yaml`*
+*Generated on 2026-07-02T00:12:51 from `profile.yaml`*
