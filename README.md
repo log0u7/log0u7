@@ -11,7 +11,7 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 `log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
 
-*Updated: 2026-07-01*
+*Updated: 2026-07-02*
 
 ## NAME
 
@@ -73,21 +73,61 @@ Post-2001: the MMO era hit hard. T4C (The 4th Coming), then DAoC, nights of
 farming and PvP in persistent worlds that kept turning when you logged off. No
 WoW yet, but the addiction was already wired in.
 
-2009-2012: ran a private WoW server on MaNGOS, on a VPS, from scratch. Endless
-CMake compiles pegging every core, build folders eating the disk. MySQL
-database with accounts, characters, item_template, quest_template. Distributed
-realmlist.wtf, built a launcher web page and signup system, wrote custom SQL
-events and GM scripts. Had a real crew: game masters, scripters, a community.
-Debugged the core, optimized queries, handled hosting, admin, and community
-management. All self-taught. Zero budget.
+2007-2008: a second track started quietly alongside the gaming. A Perl harness
+strapped to GDB, automating the tedious parts of exploit development: fuzz the
+offset, resolve the JMP ESP gadget, build the payload, fire. Stack overflows,
+format strings, ret2libc, each technique abstracted behind a common interface.
+Not impressive by any standard. At the time, watching it land a shell on its
+own for the first time was enough.
+
+2009: SWI-Prolog replaced the hardcoded if/else dispatch. Target properties
+became facts, exploitation preconditions became rules, and the engine could
+reason about which technique to apply instead of just iterating. At the time I
+was working as a self-taught sysadmin at the Universite de Provence, campus
+Saint-Charles in Marseille, where Alain Colmerauer (creator of Prolog, 1972,
+Luminy, ten minutes away) was retired but still around. He talked about his
+language to a sysadmin who did not know what logic programming was. That
+conversation was enough.
+
+2009-2012 ran on two tracks simultaneously. One was the WoW server: MaNGOS on
+a VPS, CMake compiles pegging every core, MySQL with accounts and quest
+templates, a launcher, a signup system, game masters, a community, all self-
+taught, zero budget. The other track was the Prolog inference engine growing
+into a genetic algorithm: populations of strategy configurations evaluated in
+parallel via Parallel::ForkManager, fitness measured as exploitation success
+rate, generations converging on weight inversions that human intuition had
+never found. Both tracks ran on the same Core 2 Duo, in the same Marseille
+apartment.
+
+2010: discovered Metasm, Yoann Guillot's pure-Ruby binary analysis suite, via
+an exploitation tutorial on the Sogeti ESEC lab blog. Where the Perl/GDB
+system orchestrated external tools, Metasm internalized everything: assembler,
+disassembler, debugger interface, ELF/PE parsers, all in one library. Learning
+Ruby through Metasm's codebase opened an entire ecosystem: Puppet, Foreman,
+early GitLab. The exploitation framework became an infrastructure career.
+Funny how that works.
 
 Post-2012: industrialized deployments of TeamSpeak and Mumble servers, Steam
 game servers for CS:GO and ARK. Ran a cross-server ARK community with plugins,
 synchronized wipes, GM events, and centralized configs. Ops at scale, still
-for fun.
+for fun. In parallel, a separate R/ML track: neural networks, predictive
+models, weather first, then forex and crypto. Same pattern as the exploit
+engine (profile, predict, act, learn), different domain.
+
+Around 2018, Python unified both lines. pwntools for binary profiling,
+z3-solver for numerical constraints, PyTorch replacing R for the models. Ruby
+stayed for the exploitation layer; Python became the orchestrator. 2019: first
+contextual bandits (Thompson sampling) replacing the static GA weights. 2023:
+LLM integration (GPT, then Ollama for local inference).
+
+2024-2026: the architecture settled into six layers (fuzzing, profiling,
+Datalog/Souffle, Bitwuzla/Z3, LLM, bandit/MCTS), validated on three public CTF
+suites (24/24) and a documented kernel exploit chain. Three articles written
+up, describing fifteen years of evolution from a Perl script and a Prolog
+query to a hybrid neuro-symbolic pipeline.
 
 The machines got bigger, the stack got deeper, the instinct never changed:
-figure it out, build it, run it. Now it is LLM agents and predictive ML.
+figure it out, build it, run it.
 
 ## STACK
 
@@ -348,4 +388,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T22:27:22 from `profile.yaml`*
+*Generated on 2026-07-02T01:05:30 from `profile.yaml`*
