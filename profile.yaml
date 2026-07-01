@@ -117,7 +117,7 @@ bio: |
 stack:
   languages:
     - "Python (async, FastAPI, Starlette, Pydantic, Textual, multithreaded client/server, web scraping)"
-    - "Ruby / Ruby on Rails (more familiar than Django/Symfony/Laravel)"
+    - "Ruby (scripting, tooling, Metasm)"
     - "Perl (systems, network, multithreaded client/server, IRC bots)"
     - "PHP (systems, network, MVC, custom CMF framework)"
     - "R (data mining, machine learning, predictive modeling)"

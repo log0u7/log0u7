@@ -11,7 +11,7 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 `log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
 
-*Updated: 2026-07-01*
+*Updated: 2026-07-02*
 
 ## NAME
 
@@ -216,7 +216,7 @@ figure it out, build it, run it.
        client/server, web scraping)
 
   -l ruby
-       Ruby / Ruby on Rails (more familiar than Django/Symfony/Laravel)
+       Ruby (scripting, tooling, Metasm)
 
   -l perl
        Perl (systems, network, multithreaded client/server, IRC bots)
@@ -402,4 +402,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T23:20:33 from `profile.yaml`*
+*Generated on 2026-07-02T01:21:41 from `profile.yaml`*
