@@ -29,9 +29,9 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 ## DESCRIPTION
 
-Autodidacte. Concoit et opere des plateformes d'infrastructure, d'IA/ML et de
-developer experience. Stack multi-langage (Python, Ruby, Perl, PHP, C/C++,
-Java, R, Prolog, VimScript).
+Self-taught platform engineer designing and operating infrastructure, AI/ML
+and developer experience platforms. Multi-language stack (Python, Ruby, Perl,
+PHP, C/C++, Java, R, Prolog, VimScript).
 
 **Handle:** `log0u7`  
 **Name:** G.K.E.  
@@ -41,65 +41,41 @@ Java, R, Prolog, VimScript).
 
 ### Origin
 
-Ne en 1984. En primaire, y'avait des Thomson TO7/MO5 a l'ecole
-(merci le plan Informatique pour Tous). On les scotchait plus
-qu'on les programmait, mais le BASIC est entre par la.
-
-A 7-8 ans, le VTech Laser 500 de mon pere avec son lecteur de
-cassette K7. 15 minutes pour charger, une priere a chaque LOAD ""
-pour que ca plante pas. La formation BASIC Scheidegger en mallette
-grise, le magneto, les exercices sur cassette. Premier vrai ordi
-a la maison. Des programmes d'agenda, de calculatrice, des jeux
-de texte, des fractales en BASIC.
-
-A 10 ans, ma tante me file son Amstrad CPC 6128+. Le lecteur de
-disquette 3 pouces, le Basic, le CP/M. Et leurs livres de listings
-BASIC a taper soi-meme: "Faites vos jeux avec Amstrad", Sybex
-Jeux d'Action... des pages de code, des coquilles a chaque page,
-des heures a debugger des typos d'editeur. Je code des trucs qui
-servent a rien mais qui sont a moi.
-
-1993, DOOM debarque. Pas chez moi, chez moi y'a un CPC.
-Mais a l'ecole, y'a un 486DX2/66 avec 4 MB de RAM et une
-Sound Blaster. Ce jour-la, je comprends que la machine peut
-faire des mondes en vraie 3D. Plus rien ne sera pareil.
-
-1996-97: premier PC perso (Pentium, puis AMD K6). Warcraft 1 &
-2 tombent sur le disque dur. Le C, l'asm. Quake, Quake 2.
-Les BBS et newsgroups laissent place au web.
-
-1998: StarCraft et Brood War. Trois races parfaitement
-equilibrees, des soirees entieres a micro-gerer.
-
-1999: Quake 3, Unreal Tournament. Et Counter-Strike, pose
-sur le moteur de Half-Life, qui invente le tactical FPS
-en ligne.
-
-2000: CS organise. LAN parties. Decouverte de Linux et des
-install parties. Et puis PHP, Python, Ruby.
-
-Apres 2001: l'ere MMO. T4C (The 4th Coming, la 4eme
-prophetie), DAoC. Des nuits a farmer, du PvP, des guildes,
-des mondes qui tournent meme quand t'es pas la. Pas touche
-a WoW a l'epoque.
-
-2008-2010: un serveur prive WoW sous MaNGOS sur VPS. Des
-compilations interminables a faire saturer le CPU, CMake qui
-chialle, un dossier build qui bouffe le disque. La base MySQL
-a gerer: accounts, characters, item_template, quest_template.
-Distribution du realmlist.wtf a la commu, une page web pour
-le launcher, un systeme d'inscription, des events custom en SQL.
-Une vraie commu derriere: game masters, scripteurs qui pondent
-objets et quetes, debug du core, optimisation. Hebergement,
-admin, management - tout en autodidacte.
-
-Apres 2010: industrialisation du deployement de serveurs
-TeamSpeak et Mumble, serveurs Steam pour CS:GO et ARK.
-Maintenance d'une commu ARK cross-serveurs: plugins,
-events GM, wipes synchronises, configs centralisees.
-
-30 ans plus tard, je concois toujours des plateformes mais avec
-des agents LLM et du ML predictif.
+Born in 1984, I grew up with Thomson TO7/MO5 machines at primary school
+thanks to the "Informatique pour Tous" plan, and we mostly taped them up
+rather than programming them but BASIC still found its way in. At seven or
+eight my father brought home a VTech Laser 500 with a cassette deck where
+loading took fifteen minutes and a prayer at every LOAD "" that it would not
+crash, plus the Scheidegger BASIC course in its grey briefcase with exercises
+on tape, my first real computer at home, where I wrote agenda apps,
+calculators, text games and fractal generators in BASIC. At ten my aunt gave
+me her Amstrad CPC 6128+ with its 3-inch floppy drive, Locomotive BASIC and
+CP/M, along with those listing books you had to type in yourself like
+"Faites vos jeux avec Amstrad" and Sybex Action Games, pages of code riddled
+with publisher typos that took hours to debug, and I wrote useless programs
+that were at least mine. Then 1993 brought DOOM, not at home where we still
+had the CPC but at school on a 486DX2/66 with 4 MB of RAM and a Sound
+Blaster, the day I realized a machine could build real 3D worlds and nothing
+would ever be the same. 1996-97 arrived my first personal PC, a Pentium then
+an AMD K6, Warcraft 1 and 2 on the hard drive, C and assembly, Quake and
+Quake 2, while BBS and newsgroups gave way to the web. 1998 meant StarCraft
+and Brood War, three perfectly balanced races and entire nights of micro.
+1999 brought Quake 3, Unreal Tournament, and Counter-Strike built on the
+Half-Life engine inventing the tactical FPS online. 2000 meant organized CS,
+LAN parties, discovering Linux and install parties, then PHP, Python, Ruby.
+After 2001 the MMO era arrived with T4C (The 4th Coming) and DAoC, nights of
+farming and PvP and guilds in worlds that kept turning when you logged off,
+no WoW yet. 2009-2012 I ran a private WoW server on MaNGOS on a VPS, endless
+compiles pegging the CPU while CMake screamed and the build folder ate the
+disk, a MySQL database to manage with accounts, characters, item_template and
+quest_template, distributing realmlist.wtf to the community, a launcher web
+page and signup system and custom SQL events, a real crew behind it with game
+masters and scripters writing items and quests, debugging the core,
+optimizing, hosting, admin, community management, all self-taught. After
+2012 I industrialized deployment of TeamSpeak and Mumble servers, Steam game
+servers for CS:GO and ARK, maintaining an ARK cross-server community with
+plugins, GM events, synchronized wipes, centralized configs. Thirty years
+later I still build platforms, now with LLM agents and predictive ML.
 
 ## STACK
 
@@ -116,6 +92,8 @@ des agents LLM et du ML predictif.
     ![Nomad](https://img.shields.io/badge/Nomad-00A3E0?style=for-the-badge&logo=nomad&logoColor=white)
     ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
     ![Traefik](https://img.shields.io/badge/Traefik-249EA6?style=for-the-badge&logo=traefik&logoColor=white)
+    ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
+    ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
     --- Observability / Monitoring ---
 
@@ -181,11 +159,6 @@ des agents LLM et du ML predictif.
     ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
     ![Gentoo](https://img.shields.io/badge/Gentoo-5A3D8F?style=for-the-badge&logo=gentoo&logoColor=white)
     ![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
-
-    --- Other ---
-
-    ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
-    ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
 
 ## OPTIONS
@@ -307,4 +280,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T20:07:25 from `profile.yaml`*
+*Generated on 2026-07-01T22:39:52 from `profile.yaml`*

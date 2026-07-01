@@ -19,7 +19,7 @@ MAN_SECTION = "User Commands"
 BADGE_GROUPS = [
     ("Infra / Containers", [
         "Vagrant", "Packer", "Docker", "Podman", "LXC", "libvirt", "QEMU",
-        "Kubernetes", "Nomad", "Proxmox", "Traefik",
+        "Kubernetes", "Nomad", "Proxmox", "Traefik", "Apache", "Nginx",
     ]),
     ("Observability / Monitoring", [
         "Prometheus", "Grafana", "VictoriaMetrics", "VictoriaLogs", "CouchDB",
