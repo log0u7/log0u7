@@ -9,10 +9,6 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
         /____/                    
 ```
 
-`log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
-
-*Updated: 2026-07-02*
-
 ## NAME
 
 **log0u7** - Staff/Principal Platform Engineer AI/ML Security Tooling
@@ -37,7 +33,22 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 **Since:** 1984  
 **Domain:** Platform Engineering / AI/ML / Security Tooling  
 
-### Origin
+## STATUS
+
+```text
+  handle:         log0u7
+  uptime:         42y 6m 13d
+  location:       France
+  domain:         platform / ai-ml / security
+  week:           W27 2026
+
+  activity:       ▆▆▅▅▅▄▄▅▅▅▆▆▇█▇███▇▇▆▅▄▄▃▄▃▄▃▄▅▄
+
+  Beware of bugs in the above code; I have only proved it correct, not tried
+  it. -- Donald Knuth
+```
+
+## ORIGIN
 
 Born in 1984. The fascination started before any keyboard. TV commercials for
 home computers, the director's machine at nursery school glimpsed through a
@@ -143,21 +154,6 @@ query to a hybrid neuro-symbolic pipeline.
 The machines got bigger, the stack got deeper, the instinct never changed:
 figure it out, build it, run it.
 
-## STATUS
-
-```text
-  handle:         log0u7
-  uptime:         42y 6m 13d
-  location:       France
-  domain:         platform / ai-ml / security
-  week:           W27 2026
-
-  activity:       ▆▆▅▅▅▄▄▅▅▅▆▆▇█▇███▇▇▆▅▄▄▃▄▃▄▃▄▅▄
-
-  Beware of bugs in the above code; I have only proved it correct, not tried
-  it. -- Donald Knuth
-```
-
 ## STACK
 
 ### Languages
@@ -225,9 +221,9 @@ figure it out, build it, run it.
 
 ### 🟢 consensus
 
-Orchestration multi-agents LLM production-grade (coder panel consensus lead),
-RAG (pgvector/sqlite-vec), sandbox Docker securise, quota management, TUI
-Textual, 6k+ lignes Python async
+Production-grade multi-agent LLM orchestration (coder panel, consensus lead),
+RAG (pgvector/sqlite-vec), secure Docker sandbox, quota management, Textual
+TUI, 6k+ lines of async Python
 
 **Tags:** `AI/ML`, `Python`, `FastAPI`, `Docker`, `RAG`, `Textual`  
 **Lines:** ~3,883  
@@ -236,8 +232,8 @@ Textual, 6k+ lignes Python async
 
 ### 🟢 myflec
 
-Shell framework modulaire (Bash + Mise + Fnox + Starship), SSH identity model
-(gitdir + host alias), validation shellcheck/bash -n, CI multi-forge
+Modular shell framework (Bash + Mise + Fnox + Starship), SSH identity model
+(gitdir + host alias), shellcheck/bash -n validation, multi-forge CI
 
 **Tags:** `DevX`, `Bash`, `Mise`, `Fnox`, `Shell`, `Starship`  
 **Lines:** ~16,000  
@@ -245,8 +241,8 @@ Shell framework modulaire (Bash + Mise + Fnox + Starship), SSH identity model
 
 ### 🟢 vim-plugin-manager
 
-Gestionnaire plugins Vim (Git submodules + packages natifs), async jobs avec
-queue de concurrence, 20 tests Vader, CI multi-distro
+Vim plugin manager (Git submodules + native packages), async jobs with
+concurrency queue, 20 Vader tests, multi-distro CI
 (Alma/Debian/Ubuntu/Arch/Gentoo)
 
 **Tags:** `VimScript`, `DevTools`, `Async`, `Testing`, `Git`  
@@ -256,9 +252,9 @@ queue de concurrence, 20 tests Vader, CI multi-distro
 
 ### 🟢 calvin
 
-Platform IaC Docker Swarm 11 stacks (Traefik, Foreman PXE, PowerDNS/DHCP,
-VictoriaMetrics/Logs, Grafana, ARA), TLS 4 modes, MACVLAN, Makefile 25k
-lignes, CI GitLab
+Docker Swarm IaC platform, 11 stacks (Traefik, Foreman PXE, PowerDNS/DHCP,
+VictoriaMetrics/Logs, Grafana, ARA), 4 TLS modes, MACVLAN, 25k-line Makefile,
+GitLab CI
 
 **Tags:** `IaC`, `Docker Swarm`, `Bare-metal`, `Observability`, `Foreman`, `Traefik`  
 **Lines:** ~50,000  
@@ -266,8 +262,8 @@ lignes, CI GitLab
 
 ### 🟢 fluolight
 
-Controleur NeoPixel embarque (Arduino/C++), Ethernet DHCP, proxy, watchdog,
-architecture modulaire 5 fichiers, 920 lignes
+Embedded NeoPixel controller (Arduino/C++), Ethernet DHCP, proxy, watchdog,
+modular 5-file architecture, 920 lines
 
 **Tags:** `Embedded`, `C++`, `Arduino`, `NeoPixel`, `Ethernet`  
 **Lines:** ~920  
@@ -283,6 +279,3 @@ architecture modulaire 5 fichiers, 920 lignes
 Report issues via GitHub Issues on the relevant project repository.
 
 Contact: [https://www.6admin.io](https://www.6admin.io)
-
----
-*Generated on 2026-07-02T00:49:29 from `profile.yaml`*

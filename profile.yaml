@@ -255,7 +255,7 @@ badges:
 projects:
   - key: "consensus"
     name: "consensus"
-    desc: "Orchestration multi-agents LLM production-grade (coder panel consensus lead), RAG (pgvector/sqlite-vec), sandbox Docker securise, quota management, TUI Textual, 6k+ lignes Python async"
+    desc: "Production-grade multi-agent LLM orchestration (coder panel, consensus lead), RAG (pgvector/sqlite-vec), secure Docker sandbox, quota management, Textual TUI, 6k+ lines of async Python"
     url: "https://github.com/log0u7/consensus"
     tags: ["AI/ML", "Python", "FastAPI", "Docker", "RAG", "Textual"]
     status: "active"
@@ -263,14 +263,14 @@ projects:
     tests: 21
   - key: "myflec"
     name: "myflec"
-    desc: "Shell framework modulaire (Bash + Mise + Fnox + Starship), SSH identity model (gitdir + host alias), validation shellcheck/bash -n, CI multi-forge"
+    desc: "Modular shell framework (Bash + Mise + Fnox + Starship), SSH identity model (gitdir + host alias), shellcheck/bash -n validation, multi-forge CI"
     url: "https://github.com/log0u7/myflec"
     tags: ["DevX", "Bash", "Mise", "Fnox", "Shell", "Starship"]
     status: "active"
     lines: 16000
   - key: "vim-plugin-manager"
     name: "vim-plugin-manager"
-    desc: "Gestionnaire plugins Vim (Git submodules + packages natifs), async jobs avec queue de concurrence, 20 tests Vader, CI multi-distro (Alma/Debian/Ubuntu/Arch/Gentoo)"
+    desc: "Vim plugin manager (Git submodules + native packages), async jobs with concurrency queue, 20 Vader tests, multi-distro CI (Alma/Debian/Ubuntu/Arch/Gentoo)"
     url: "https://github.com/log0u7/vim-plugin-manager"
     tags: ["VimScript", "DevTools", "Async", "Testing", "Git"]
     status: "active"
@@ -278,14 +278,14 @@ projects:
     tests: 20
   - key: "calvin"
     name: "calvin"
-    desc: "Platform IaC Docker Swarm 11 stacks (Traefik, Foreman PXE, PowerDNS/DHCP, VictoriaMetrics/Logs, Grafana, ARA), TLS 4 modes, MACVLAN, Makefile 25k lignes, CI GitLab"
+    desc: "Docker Swarm IaC platform, 11 stacks (Traefik, Foreman PXE, PowerDNS/DHCP, VictoriaMetrics/Logs, Grafana, ARA), 4 TLS modes, MACVLAN, 25k-line Makefile, GitLab CI"
     url: "https://github.com/log0u7/calvin"
     tags: ["IaC", "Docker Swarm", "Bare-metal", "Observability", "Foreman", "Traefik"]
     status: "active"
     lines: 50000
   - key: "fluolight"
     name: "fluolight"
-    desc: "Controleur NeoPixel embarque (Arduino/C++), Ethernet DHCP, proxy, watchdog, architecture modulaire 5 fichiers, 920 lignes"
+    desc: "Embedded NeoPixel controller (Arduino/C++), Ethernet DHCP, proxy, watchdog, modular 5-file architecture, 920 lines"
     url: "https://github.com/log0u7/fluolight"
     tags: ["Embedded", "C++", "Arduino", "NeoPixel", "Ethernet"]
     status: "active"
@@ -355,6 +355,7 @@ manpage:
     - SYNOPSIS
     - DESCRIPTION
     - STATUS
+    - ORIGIN
     - STACK
     - EXAMPLES
     - SEE ALSO

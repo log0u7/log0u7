@@ -220,8 +220,6 @@ def load_profile() -> dict:
 def render(p: dict) -> str:
     parts = []
     id_ = p["identity"]
-    today = datetime.date.today().isoformat()
-    now = datetime.datetime.now().isoformat(timespec="seconds")
 
     # --- ASCII BANNER (includes manpage header) ---
     header_left = MAN_NAME
@@ -234,10 +232,6 @@ def render(p: dict) -> str:
     parts.append("")
     parts.append(figlet(id_["handle"]))
     parts.append("```")
-    parts.append("")
-    parts.append(f"`{id_['handle']}` - {id_['title']}")
-    parts.append("")
-    parts.append(f"*Updated: {today}*")
     parts.append("")
 
     # --- NAME ---
@@ -271,9 +265,17 @@ def render(p: dict) -> str:
         parts.append(f"**{label}:** {value}  ")
     parts.append("")
 
-    # --- BIO (origin story) ---
+    # --- STATUS (neofetch-style + sparkline + fortune) ---
+    parts.append("## STATUS")
+    parts.append("")
+    parts.append("```text")
+    parts.append(render_status(p))
+    parts.append("```")
+    parts.append("")
+
+    # --- ORIGIN (bio) ---
     if "bio" in p and p["bio"]:
-        parts.append("### Origin")
+        parts.append("## ORIGIN")
         parts.append("")
         paragraphs = []
         current = []
@@ -290,14 +292,6 @@ def render(p: dict) -> str:
         for para in paragraphs:
             parts.append(wrap(para))
             parts.append("")
-
-    # --- STATUS (neofetch-style + sparkline + fortune) ---
-    parts.append("## STATUS")
-    parts.append("")
-    parts.append("```text")
-    parts.append(render_status(p))
-    parts.append("```")
-    parts.append("")
 
     # --- STACK (badges grouped) ---
     if "badges" in p and p["badges"]:
@@ -341,12 +335,6 @@ def render(p: dict) -> str:
     website = p.get("links", {}).get("website", "")
     if website:
         parts.append(f"Contact: [{website}]({website})")
-    parts.append("")
-
-    # --- FOOTER ---
-    parts.append("---")
-    parts.append(f"*Generated on {now} from `profile.yaml`*")
-    parts.append("")
 
     return "\n".join(parts)
 
