@@ -20,7 +20,7 @@ MAN_SECTION = "User Commands"
 BADGE_GROUPS = [
     ("Languages", [
         "Python", "Ruby", "Perl", "PHP", "C", "C++", "R",
-        "JavaScript", "Node.js", "Bash", "POSIX sh",
+        "JavaScript", "Node.js", "Bash",
         "awk", "lex/yacc/bison", "Markdown",
     ]),
     ("Environment", [
@@ -46,7 +46,7 @@ BADGE_GROUPS = [
         "MariaDB", "MySQL", "Postgres", "Redis", "SQLite", "CouchDB",
     ]),
     ("Security", [
-        "SSH", "GPG", "OpenSSL", "OpenBao",
+        "OpenSSH", "GPG", "OpenSSL", "OpenBao",
         "nmap", "netcat", "OpenVAS",
         "Wireshark", "Metasploit", "Burp Suite", "Hashcat",
     ]),
@@ -75,7 +75,7 @@ BADGE_GROUPS = [
     ]),
     ("Distributions", [
         "Debian", "Ubuntu", "AlmaLinux", "Alpine Linux",
-        "Arch Linux", "Gentoo", "NixOS",
+        "Arch Linux", "Gentoo", "NixOS", "OpenBSD", "POSIX",
     ]),
 ]
 
