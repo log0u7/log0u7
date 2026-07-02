@@ -11,7 +11,7 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 `log0u7` - Staff/Principal Platform Engineer AI/ML Security Tooling
 
-*Updated: 2026-07-01*
+*Updated: 2026-07-02*
 
 ## NAME
 
@@ -103,6 +103,14 @@ Luminy, ten minutes away) was retired but still around. He talked about his
 language to a sysadmin who did not know what logic programming was. That
 conversation was enough.
 
+2010: discovered Metasm, Yoann Guillot's pure-Ruby binary analysis suite, via
+an exploitation tutorial on the Sogeti ESEC lab blog. Where the Perl/GDB
+system orchestrated external tools, Metasm internalized everything: assembler,
+disassembler, debugger interface, ELF/PE parsers, all in one library. Learning
+Ruby through Metasm's codebase opened an entire ecosystem: Puppet, Foreman,
+early GitLab. The exploitation framework became an infrastructure career.
+Funny how that works.
+
 2009-2012 ran on two tracks simultaneously. One was the WoW server: MaNGOS on
 a VPS, CMake compiles pegging every core, MySQL with accounts and quest
 templates, a launcher, a signup system, game masters, a community, all self-
@@ -112,14 +120,6 @@ parallel via Parallel::ForkManager, fitness measured as exploitation success
 rate, generations converging on weight inversions that human intuition had
 never found. Both tracks ran on the same Core 2 Duo, in the same Marseille
 apartment.
-
-2010: discovered Metasm, Yoann Guillot's pure-Ruby binary analysis suite, via
-an exploitation tutorial on the Sogeti ESEC lab blog. Where the Perl/GDB
-system orchestrated external tools, Metasm internalized everything: assembler,
-disassembler, debugger interface, ELF/PE parsers, all in one library. Learning
-Ruby through Metasm's codebase opened an entire ecosystem: Puppet, Foreman,
-early GitLab. The exploitation framework became an infrastructure career.
-Funny how that works.
 
 Post-2012: industrialized deployments of TeamSpeak and Mumble servers, Steam
 game servers for CS:GO and ARK. Ran a cross-server ARK community with plugins,
@@ -142,6 +142,21 @@ query to a hybrid neuro-symbolic pipeline.
 
 The machines got bigger, the stack got deeper, the instinct never changed:
 figure it out, build it, run it.
+
+## STATUS
+
+```text
+  handle:         log0u7
+  uptime:         42y 6m 13d
+  location:       France
+  domain:         platform / ai-ml / security
+  week:           W27 2026
+
+  activity:       ▆▆▅▅▅▄▄▅▅▅▆▆▇█▇███▇▇▆▅▄▄▃▄▃▄▃▄▅▄
+
+  Beware of bugs in the above code; I have only proved it correct, not tried
+  it. -- Donald Knuth
+```
 
 ## STACK
 
@@ -205,197 +220,6 @@ figure it out, build it, run it.
 
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![AlmaLinux](https://img.shields.io/badge/AlmaLinux-10B981?style=for-the-badge&logo=almalinux&logoColor=white) ![Alpine Linux](https://img.shields.io/badge/Alpine_Linux-%230D597F.svg?style=for-the-badge&logo=alpinelinux&logoColor=white) ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white) ![Gentoo](https://img.shields.io/badge/Gentoo-5A3D8F?style=for-the-badge&logo=gentoo&logoColor=white) ![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
 
-
-## OPTIONS
-
-### Languages
-
-```text
-  -l python
-       Python (async, FastAPI, Starlette, Pydantic, Textual, multithreaded
-       client/server, web scraping)
-
-  -l ruby
-       Ruby (scripting, tooling, Metasm)
-
-  -l perl
-       Perl (systems, network, multithreaded client/server, IRC bots)
-
-  -l php
-       PHP (systems, network, MVC, custom CMF framework)
-
-  -l c
-       C/C++ (systems programming, network internals, embedded Arduino)
-
-  -l r
-       R (data mining, machine learning, predictive modeling)
-
-  -l prolog
-       Prolog / Datalog (declarative logic programming)
-
-  -l z3-solver
-       Z3 solver (SMT, verification, constraint solving)
-
-  -l java
-       Java / Groovy (Jenkins pipelines, CI automation)
-
-  -l vimscript
-       VimScript (async jobs, submodules, 2k+ lines)
-
-  -l bash
-       Bash (modular frameworks, complete programs)
-
-  -l posix-sh
-       POSIX sh (portable scripting, strict compliance)
-
-  -l awk
-       awk / gawk (text processing, complete programs)
-
-  -l lex
-       lex / yacc / bison (lexing, parsing, grammars)
-
-  -l x86-assembly
-       x86 assembly (DOS, basic reverse engineering)
-
-  -l basic
-       BASIC (Thomson TO7/MO5, Laser 500, Amstrad CPC 6128+, QBasic)
-
-  -l javascript
-       JavaScript / Node.js
-```
-
-### Runtimes
-
-```text
-  -r docker-swarm
-       Docker Swarm (multi-stack, TLS, MACVLAN, bare-metal PXE)
-
-  -r kubernetes
-       Kubernetes (CKA level, operators)
-
-  -r nomad
-       Nomad
-
-  -r docker
-       Docker (standalone, compose)
-
-  -r podman
-       Podman (rootless)
-
-  -r lxc
-       LXC (system containers)
-
-  -r libvirt
-       libvirt / QEMU / KVM (full virtualization)
-
-  -r proxmox
-       Proxmox (hypervisor, cluster)
-```
-
-### IaC
-
-```text
-  -i ansible
-       Ansible (roles, collections, Mitogen)
-
-  -i salt
-       Salt (states, grains, pillar)
-
-  -i puppet
-       Puppet (manifests, modules)
-
-  -i chef
-       Chef (cookbooks, knife)
-
-  -i opentofu
-       OpenTofu (infrastructure as code)
-
-  -i foreman
-       Foreman (provisioning, lifecycle)
-
-  -i consul
-       Consul (service discovery, mesh)
-```
-
-### AI/ML
-
-```text
-  -a multi-agent-llm-orchestration
-       Multi-agent LLM orchestration (coder panel, consensus lead)
-
-  -a rag
-       RAG (pgvector, sqlite-vec, model2vec), Docker sandbox, streaming SSE
-
-  -a quota
-       Quota/governance, TUI (Textual), CI/CD
-
-  -a predictive-modeling
-       Predictive modeling (weather, forex, crypto)
-
-  -a thompson-sampling
-       Thompson sampling, genetic algorithms, MCTS
-```
-
-### Security
-
-```text
-  -x docker-sandbox
-       Docker sandbox (--network none --read-only, caps drop)
-
-  -x secrets-management:-openbao
-       Secrets management: OpenBao, age, fnox
-
-  -x zip-slip-protection
-       Zip-slip protection, mTLS
-
-  -x bug-hunting-platform
-       Bug hunting platform (GraphQL, WebSocket shell, Traefik API)
-
-  -x ssh
-       SSH, GPG, OpenSSL, nmap, netcat, OpenVAS
-
-  -x exploit-strategy-selection
-       Exploit strategy selection (Datalog, Bitwuzla/Z3, bandit)
-```
-
-### Observability
-
-```text
-  -o victoriametrics
-       VictoriaMetrics, VictoriaLogs, Grafana, OpenTelemetry, ARA
-
-  -o prometheus
-       Prometheus, Loki, Tempo, Jaeger
-```
-
-### Databases
-
-```text
-  -d postgresql
-       PostgreSQL, MySQL, MariaDB, SQLite
-
-  -d redis
-       Redis (cache, pub/sub)
-
-  -d couchdb
-       CouchDB (document store, replication)
-```
-
-### Tooling
-
-```text
-  -t mise
-       Mise, Fnox, Starship (environment and shell tooling)
-
-  -t pytest
-       pytest, GitLab CI, GitHub Actions (testing and CI/CD)
-
-  -t opencode
-       OpenCode, Vim, Neovim (editors)
-
-  -t git
-       Git, GitLab, GitHub (VCS and forges)
-```
 
 ## EXAMPLES
 
@@ -461,4 +285,4 @@ Report issues via GitHub Issues on the relevant project repository.
 Contact: [https://www.6admin.io](https://www.6admin.io)
 
 ---
-*Generated on 2026-07-01T23:44:46 from `profile.yaml`*
+*Generated on 2026-07-02T02:29:06 from `profile.yaml`*

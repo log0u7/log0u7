@@ -6,6 +6,7 @@ import datetime
 import textwrap
 import subprocess
 import re
+import random
 from pathlib import Path
 
 PROFILE = "profile.yaml"
@@ -141,6 +142,76 @@ def render_badge_groups(badges: list) -> str:
     return "\n".join(lines)
 
 
+SPARKLINE_CHARS = "▁▂▃▄▅▆▇█"
+
+
+def render_uptime(since_year: int) -> str:
+    today = datetime.date.today()
+    start = datetime.date(since_year, 1, 1)
+    delta = today - start
+    years = delta.days // 365
+    months = (delta.days % 365) // 30
+    days = delta.days % 30
+    return f"{years}y {months}m {days}d"
+
+
+def render_sparkline(seed: int, length: int = 32) -> str:
+    rng = random.Random(seed)
+    # Generate smooth-ish values with a walk to look like activity
+    values = []
+    v = rng.randint(2, 5)
+    for _ in range(length):
+        v = max(0, min(7, v + rng.randint(-1, 1)))
+        values.append(v)
+    return "".join(SPARKLINE_CHARS[v] for v in values)
+
+
+def render_fortune(fortunes: list, seed: int) -> str:
+    if not fortunes:
+        return ""
+    idx = seed % len(fortunes)
+    return fortunes[idx]
+
+
+def render_status(p: dict) -> str:
+    today = datetime.date.today()
+    iso_year, iso_week, _ = today.isocalendar()
+    seed = iso_year * 100 + iso_week
+
+    since_year = int(p["identity"].get("since", 1984))
+    uptime = render_uptime(since_year)
+    sparkline = render_sparkline(seed)
+    fortune_text = render_fortune(p.get("fortunes", []), seed)
+
+    # Neofetch-style block
+    col_w = 16
+    lines = []
+
+    def row(label: str, value: str) -> str:
+        return f"  {label:<{col_w}}{value}"
+
+    lines.append(row("handle:", p["identity"]["handle"]))
+    lines.append(row("uptime:", uptime))
+    lines.append(row("location:", p["identity"]["location"]))
+    lines.append(row("domain:", "platform / ai-ml / security"))
+    lines.append(row("week:", f"W{iso_week:02d} {iso_year}"))
+    lines.append("")
+    lines.append(row("activity:", sparkline))
+    lines.append("")
+    if fortune_text:
+        wrapped = textwrap.fill(
+            fortune_text,
+            width=WIDTH - 2,
+            initial_indent="  ",
+            subsequent_indent="  ",
+            break_long_words=False,
+            break_on_hyphens=False,
+        )
+        lines.append(wrapped)
+
+    return "\n".join(lines)
+
+
 def load_profile() -> dict:
     raw = Path(PROFILE).read_text()
     return yaml.safe_load(raw)
@@ -220,6 +291,14 @@ def render(p: dict) -> str:
             parts.append(wrap(para))
             parts.append("")
 
+    # --- STATUS (neofetch-style + sparkline + fortune) ---
+    parts.append("## STATUS")
+    parts.append("")
+    parts.append("```text")
+    parts.append(render_status(p))
+    parts.append("```")
+    parts.append("")
+
     # --- STACK (badges grouped) ---
     if "badges" in p and p["badges"]:
         parts.append("## STACK")
@@ -227,51 +306,6 @@ def render(p: dict) -> str:
         groups = render_badge_groups(p["badges"])
         if groups:
             parts.append(groups)
-        parts.append("")
-
-    # --- OPTIONS (skills as flags) ---
-    parts.append("## OPTIONS")
-    parts.append("")
-
-    skill_groups = p.get("stack", {})
-    group_map = [
-        ("Languages", "-l", "languages"),
-        ("Runtimes", "-r", "runtimes"),
-        ("IaC", "-i", "iac"),
-        ("AI/ML", "-a", "ai_ml"),
-        ("Security", "-x", "security"),
-        ("Observability", "-o", "observability"),
-        ("Databases", "-d", "databases"),
-        ("Tooling", "-t", "tooling"),
-    ]
-
-    for title, short_flag, key in group_map:
-        items = skill_groups.get(key, [])
-        if not items:
-            continue
-        parts.append(f"### {title}")
-        parts.append("")
-        parts.append("```text")
-        desc_indent = "       "
-        for i, item in enumerate(items):
-            raw = item.split("(")[0].strip()
-            raw = raw.split(",")[0].strip()
-            raw = raw.split(" /")[0].strip()
-            raw = raw.split("/")[0].strip()
-            flag_name = raw.lower().replace(" ", "-")
-            parts.append(f"  {short_flag} {flag_name}")
-            wrapped = textwrap.fill(
-                item,
-                width=WIDTH,
-                initial_indent=desc_indent,
-                subsequent_indent=desc_indent,
-                break_long_words=False,
-                break_on_hyphens=False,
-            )
-            parts.append(wrapped)
-            if i < len(items) - 1:
-                parts.append("")
-        parts.append("```")
         parts.append("")
 
     # --- EXAMPLES (projects) ---

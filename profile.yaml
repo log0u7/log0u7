@@ -73,6 +73,14 @@ bio: |
   retired but still around. He talked about his language to a sysadmin
   who did not know what logic programming was. That conversation was enough.
 
+  2010: discovered Metasm, Yoann Guillot's pure-Ruby binary analysis suite,
+  via an exploitation tutorial on the Sogeti ESEC lab blog. Where the
+  Perl/GDB system orchestrated external tools, Metasm internalized
+  everything: assembler, disassembler, debugger interface, ELF/PE parsers,
+  all in one library. Learning Ruby through Metasm's codebase opened an
+  entire ecosystem: Puppet, Foreman, early GitLab. The exploitation
+  framework became an infrastructure career. Funny how that works.
+
   2009-2012 ran on two tracks simultaneously. One was the WoW server:
   MaNGOS on a VPS, CMake compiles pegging every core, MySQL with accounts
   and quest templates, a launcher, a signup system, game masters, a
@@ -82,14 +90,6 @@ bio: |
   fitness measured as exploitation success rate, generations converging on
   weight inversions that human intuition had never found. Both tracks ran
   on the same Core 2 Duo, in the same Marseille apartment.
-
-  2010: discovered Metasm, Yoann Guillot's pure-Ruby binary analysis suite,
-  via an exploitation tutorial on the Sogeti ESEC lab blog. Where the
-  Perl/GDB system orchestrated external tools, Metasm internalized
-  everything: assembler, disassembler, debugger interface, ELF/PE parsers,
-  all in one library. Learning Ruby through Metasm's codebase opened an
-  entire ecosystem: Puppet, Foreman, early GitLab. The exploitation
-  framework became an infrastructure career. Funny how that works.
 
   Post-2012: industrialized deployments of TeamSpeak and Mumble servers,
   Steam game servers for CS:GO and ARK. Ran a cross-server ARK community
@@ -113,68 +113,6 @@ bio: |
 
   The machines got bigger, the stack got deeper, the instinct never changed:
   figure it out, build it, run it.
-
-stack:
-  languages:
-    - "Python (async, FastAPI, Starlette, Pydantic, Textual, multithreaded client/server, web scraping)"
-    - "Ruby (scripting, tooling, Metasm)"
-    - "Perl (systems, network, multithreaded client/server, IRC bots)"
-    - "PHP (systems, network, MVC, custom CMF framework)"
-    - "C/C++ (systems programming, network internals, embedded Arduino)"
-    - "R (data mining, machine learning, predictive modeling)"
-    - "Prolog / Datalog (declarative logic programming)"
-    - "Z3 solver (SMT, verification, constraint solving)"
-    - "Java / Groovy (Jenkins pipelines, CI automation)"
-    - "VimScript (async jobs, submodules, 2k+ lines)"
-    - "Bash (modular frameworks, complete programs)"
-    - "POSIX sh (portable scripting, strict compliance)"
-    - "awk / gawk (text processing, complete programs)"
-    - "lex / yacc / bison (lexing, parsing, grammars)"
-    - "x86 assembly (DOS, basic reverse engineering)"
-    - "BASIC (Thomson TO7/MO5, Laser 500, Amstrad CPC 6128+, QBasic)"
-    - "JavaScript / Node.js"
-  runtimes:
-    - "Docker Swarm (multi-stack, TLS, MACVLAN, bare-metal PXE)"
-    - "Kubernetes (CKA level, operators)"
-    - "Nomad"
-    - "Docker (standalone, compose)"
-    - "Podman (rootless)"
-    - "LXC (system containers)"
-    - "libvirt / QEMU / KVM (full virtualization)"
-    - "Proxmox (hypervisor, cluster)"
-  iac:
-    - "Ansible (roles, collections, Mitogen)"
-    - "Salt (states, grains, pillar)"
-    - "Puppet (manifests, modules)"
-    - "Chef (cookbooks, knife)"
-    - "OpenTofu (infrastructure as code)"
-    - "Foreman (provisioning, lifecycle)"
-    - "Consul (service discovery, mesh)"
-  ai_ml:
-    - "Multi-agent LLM orchestration (coder panel, consensus lead)"
-    - "RAG (pgvector, sqlite-vec, model2vec), Docker sandbox, streaming SSE"
-    - "Quota/governance, TUI (Textual), CI/CD"
-    - "Predictive modeling (weather, forex, crypto)"
-    - "Thompson sampling, genetic algorithms, MCTS"
-  security:
-    - "Docker sandbox (--network none --read-only, caps drop)"
-    - "Secrets management: OpenBao, age, fnox"
-    - "Zip-slip protection, mTLS"
-    - "Bug hunting platform (GraphQL, WebSocket shell, Traefik API)"
-    - "SSH, GPG, OpenSSL, nmap, netcat, OpenVAS"
-    - "Exploit strategy selection (Datalog, Bitwuzla/Z3, bandit)"
-  observability:
-    - "VictoriaMetrics, VictoriaLogs, Grafana, OpenTelemetry, ARA"
-    - "Prometheus, Loki, Tempo, Jaeger"
-  databases:
-    - "PostgreSQL, MySQL, MariaDB, SQLite"
-    - "Redis (cache, pub/sub)"
-    - "CouchDB (document store, replication)"
-  tooling:
-    - "Mise, Fnox, Starship (environment and shell tooling)"
-    - "pytest, GitLab CI, GitHub Actions (testing and CI/CD)"
-    - "OpenCode, Vim, Neovim (editors)"
-    - "Git, GitLab, GitHub (VCS and forges)"
 
 badges:
   # --- Languages ---
@@ -356,6 +294,60 @@ projects:
     status: "active"
     lines: 920
 
+fortunes:
+  - "The best way to predict the future is to implement it. -- Alan Kay"
+  - "Controlling complexity is the essence of computer programming. -- Brian Kernighan"
+  - "The art of debugging is figuring out what you really told your program to do rather than what you thought you told it to do. -- Andrew Singer"
+  - "Programs must be written for people to read, and only incidentally for machines to execute. -- Abelson & Sussman"
+  - "First, solve the problem. Then, write the code. -- John Johnson"
+  - "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. -- Martin Fowler"
+  - "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away. -- Saint-Exupery"
+  - "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements. -- Brian Kernighan"
+  - "Give someone a program, you frustrate them for a day; teach them how to program, you frustrate them for a lifetime. -- David Leinweber"
+  - "Premature optimization is the root of all evil. -- Donald Knuth"
+  - "It works on my machine. -- Unknown sysadmin, always"
+  - "There are only two hard things in computer science: cache invalidation and naming things. -- Phil Karlton"
+  - "Root is just a user with a bigger blast radius. -- Unknown"
+  - "In theory, there is no difference between theory and practice. In practice, there is. -- Yogi Berra"
+  - "You can't trust code that you did not totally create yourself. -- Ken Thompson"
+  - "Security is not a product, but a process. -- Bruce Schneier"
+  - "The purpose of software engineering is to control complexity, not to create it. -- Pamela Zave"
+  - "Everything should be made as simple as possible, but not simpler. -- Albert Einstein"
+  - "Talk is cheap. Show me the code. -- Linus Torvalds"
+  - "The question of whether a computer can think is no more interesting than the question of whether a submarine can swim. -- Dijkstra"
+  - "Unix is user-friendly. It's just very selective about who its friends are. -- Unknown"
+  - "rm -rf / is not a solution. It's a last resort. -- Unknown sysadmin"
+  - "There is no cloud, only other people's computers. -- Unknown"
+  - "Prolog is the only programming language where you write what you want, not how to get it. -- Colmerauer (paraphrased)"
+  - "An exploit is just a piece of code that tells the truth about a vulnerability. -- Unknown"
+  - "Infrastructure is code. Treat it like code. -- DevOps proverb"
+  - "A ship in harbor is safe, but that is not what ships are for. -- John A. Shedd"
+  - "The tools we use have a profound (and devious) influence on our thinking habits. -- Dijkstra"
+  - "Weeks of coding can save you hours of planning. -- Unknown"
+  - "Every line of code you write is a line someone else has to read. -- Unknown"
+  - "Make it work, make it right, make it fast. -- Kent Beck"
+  - "The most dangerous phrase is: we have always done it this way. -- Grace Hopper"
+  - "Real programmers can write assembly code in any language. -- Larry Wall"
+  - "Automation is good, so long as you know exactly where to put the machine. -- Eliyahu Goldratt"
+  - "A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable. -- Leslie Lamport"
+  - "Beware of bugs in the above code; I have only proved it correct, not tried it. -- Donald Knuth"
+  - "The Internet is not a truck. It's a series of tubes. -- Ted Stevens (wrong, but memorable)"
+  - "In God we trust. All others must bring data. -- W. Edwards Deming"
+  - "Code never lies. Comments sometimes do. -- Ron Jeffries"
+  - "sudo make me a sandwich. -- XKCD"
+  - "apt-get install motivation. -- Unknown"
+  - "Have you tried turning it off and on again? -- The IT Crowd"
+  - "It's not a bug, it's an undocumented feature. -- Unknown"
+  - "You are not root on the internet. -- Unknown"
+  - "The kernel is always right. -- Linus Torvalds (implied)"
+  - "If debugging is the process of removing bugs, then programming must be the process of putting them in. -- Dijkstra"
+  - "A language that doesn't affect the way you think about programming is not worth knowing. -- Alan Perlis"
+  - "The function of good software is to make the complex appear to be simple. -- Grady Booch"
+  - "It is easier to write an incorrect program than to understand a correct one. -- Alan Perlis"
+  - "Simplicity is prerequisite for reliability. -- Dijkstra"
+  - "I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out my telephone. -- Bjarne Stroustrup"
+  - "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off. -- Bjarne Stroustrup"
+
 links:
   github: "https://github.com/log0u7"
   website: "https://www.6admin.io"
@@ -365,8 +357,8 @@ manpage:
     - NAME
     - SYNOPSIS
     - DESCRIPTION
+    - STATUS
     - STACK
-    - OPTIONS
     - EXAMPLES
     - SEE ALSO
     - BUGS
