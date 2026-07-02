@@ -24,7 +24,7 @@ BADGE_GROUPS = [
         "awk", "lex/yacc/bison", "Markdown",
     ]),
     ("Environment", [
-        "tmux", "GNU Screen", "Starship",
+        "tmux", "GNU Screen", "Starship", "irssi", "WeeChat", "Mutt",
     ]),
     ("AI / ML", [
         "Anthropic", "Claude", "OpenAI", "Ollama",

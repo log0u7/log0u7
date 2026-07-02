@@ -158,7 +158,7 @@ figure it out, build it, run it.
 
 ### Environment
 
-![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white) ![GNU Screen](https://img.shields.io/badge/GNU_Screen-A42E2B?style=for-the-badge&logo=gnu&logoColor=white) ![Starship](https://img.shields.io/badge/starship-DD0B78?style=for-the-badge&logo=starship&logoColor=white)
+![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white) ![GNU Screen](https://img.shields.io/badge/GNU_Screen-A42E2B?style=for-the-badge&logo=gnu&logoColor=white) ![Starship](https://img.shields.io/badge/starship-DD0B78?style=for-the-badge&logo=starship&logoColor=white) ![irssi](https://img.shields.io/badge/irssi-1793D1?style=for-the-badge&logoColor=white) ![WeeChat](https://img.shields.io/badge/WeeChat-3A7DC9?style=for-the-badge&logoColor=white) ![Mutt](https://img.shields.io/badge/Mutt-4B0082?style=for-the-badge&logoColor=white)
 
 ### AI / ML
 
