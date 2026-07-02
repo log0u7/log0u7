@@ -193,7 +193,7 @@ def render_status(p: dict) -> str:
     lines.append(row("handle:", p["identity"]["handle"]))
     lines.append(row("uptime:", uptime))
     lines.append(row("location:", p["identity"]["location"]))
-    lines.append(row("domain:", "platform / ai-ml / security"))
+    lines.append(row("domain:", p["identity"].get("domain", "")))
     lines.append(row("week:", f"W{iso_week:02d} {iso_year}"))
     lines.append("")
     lines.append(row("activity:", sparkline))
@@ -244,9 +244,8 @@ def render(p: dict) -> str:
     parts.append("## SYNOPSIS")
     parts.append("")
     parts.append("```bash")
-    parts.append(f"    {id_['handle']} [--skills] [--format man] [--section <section>]")
-    parts.append(f"    {id_['handle']} --ai orchestration --platform kubernetes")
-    parts.append(f"    {id_['handle']} --skills --filter languages")
+    for line in p.get("synopsis", []):
+        parts.append(f"    {line.format(handle=id_['handle'])}")
     parts.append("```")
     parts.append("")
 
@@ -255,14 +254,7 @@ def render(p: dict) -> str:
     parts.append("")
     parts.append(wrap(p["summary"]))
     parts.append("")
-    for label, value in [
-        ("Handle", f'`{id_["handle"]}`'),
-        ("Name", id_["name"]),
-        ("Location", id_["location"]),
-        ("Since", id_["since"]),
-        ("Domain", "Platform Engineering / AI/ML / Security Tooling"),
-    ]:
-        parts.append(f"**{label}:** {value}  ")
+    parts.append(f"**Name:** {id_['name']}  ")
     parts.append("")
 
     # --- STATUS (neofetch-style + sparkline + fortune) ---

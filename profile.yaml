@@ -1,9 +1,16 @@
 identity:
   handle: "log0u7"
   name: "G.K.E."
-  title: "Staff/Principal Platform Engineer AI/ML Security Tooling"
+  title: "Platform Engineer / Architect"
   location: "France"
   since: "1984"
+  domain: "infra / security / machine-intelligence"
+  domain_long: "Infrastructure, Security & Machine Intelligence"
+
+synopsis:
+  - "{handle} [--skills] [--format man] [--section <section>]"
+  - "{handle} --context systems --layer kernel"
+  - "{handle} --exploit --engine neuro-symbolic --target cve"
 
 summary: "Self-taught platform engineer designing and operating infrastructure, AI/ML and developer experience platforms. Multi-language stack (Python, Ruby, Perl, PHP, C/C++, Java, R, Prolog, VimScript)."
 

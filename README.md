@@ -11,14 +11,14 @@ LOG0U7(1)                       User Commands                        LOG0U7(1)
 
 ## NAME
 
-**log0u7** - Staff/Principal Platform Engineer AI/ML Security Tooling
+**log0u7** - Platform Engineer / Architect
 
 ## SYNOPSIS
 
 ```bash
     log0u7 [--skills] [--format man] [--section <section>]
-    log0u7 --ai orchestration --platform kubernetes
-    log0u7 --skills --filter languages
+    log0u7 --context systems --layer kernel
+    log0u7 --exploit --engine neuro-symbolic --target cve
 ```
 
 ## DESCRIPTION
@@ -27,11 +27,7 @@ Self-taught platform engineer designing and operating infrastructure, AI/ML
 and developer experience platforms. Multi-language stack (Python, Ruby, Perl,
 PHP, C/C++, Java, R, Prolog, VimScript).
 
-**Handle:** `log0u7`  
 **Name:** G.K.E.  
-**Location:** France  
-**Since:** 1984  
-**Domain:** Platform Engineering / AI/ML / Security Tooling  
 
 ## STATUS
 
@@ -39,7 +35,7 @@ PHP, C/C++, Java, R, Prolog, VimScript).
   handle:         log0u7
   uptime:         42y 6m 13d
   location:       France
-  domain:         platform / ai-ml / security
+  domain:         infra / security / machine-intelligence
   week:           W27 2026
 
   activity:       ▆▆▅▅▅▄▄▅▅▅▆▆▇█▇███▇▇▆▅▄▄▃▄▃▄▃▄▅▄
