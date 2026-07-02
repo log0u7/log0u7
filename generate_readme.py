@@ -27,13 +27,13 @@ BADGE_GROUPS = [
         "tmux", "GNU Screen", "Starship",
     ]),
     ("AI / ML", [
-        "Anthropic", "Claude", "Ollama",
+        "Anthropic", "Claude", "OpenAI", "Ollama",
         "PyTorch", "pandas", "NumPy",
     ]),
     ("Infra / Containers", [
         "Linux", "GNU", "systemd", "Make", "CMake", "Arduino",
         "Vagrant", "Packer", "Docker", "Podman", "LXC", "libvirt", "QEMU",
-        "VirtualBox", "Kubernetes", "Nomad", "Proxmox",
+        "KVM", "VirtualBox", "Kubernetes", "Nomad", "Proxmox",
     ]),
     ("IaC / Automation", [
         "Ansible", "Salt", "Puppet", "Chef", "OpenTofu", "Foreman", "Consul",
@@ -59,19 +59,19 @@ BADGE_GROUPS = [
         "m0n0wall", "pfSense", "OPNsense", "OpenWrt", "PowerDNS",
     ]),
     ("Proxy / LB / Web", [
-        "Traefik", "Apache", "Nginx", "Squid",
+        "Traefik", "Apache", "Nginx", "HAProxy", "Varnish", "Squid",
         "GlusterFS",
     ]),
     ("Cloud", [
-        "Google Cloud", "OVHcloud", "Alibaba Cloud", "Yandex Cloud",
+        "AWS", "Google Cloud", "OVHcloud", "Alibaba Cloud", "Yandex Cloud",
         "Vultr", "DigitalOcean", "Hetzner", "Scaleway",
-        "Oracle Cloud",
+        "Selectel", "IBM Cloud", "Oracle Cloud",
     ]),
     ("VCS / CI", [
         "Git", "GitLab", "GitHub", "GitHub Actions", "GitLab CI",
     ]),
     ("Editors / IDEs", [
-        "Neovim", "Vim", "OpenCode",
+        "Vim", "Neovim", "VSCodium", "OpenCode",
     ]),
     ("Distributions", [
         "Debian", "Ubuntu", "AlmaLinux", "Alpine Linux",

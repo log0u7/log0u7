@@ -145,6 +145,7 @@ badges:
   - "![Anthropic](https://img.shields.io/badge/anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)"
   - "![Claude](https://img.shields.io/badge/claude-D97757?style=for-the-badge&logo=claude&logoColor=white)"
 
+  - "![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logoColor=white)"
   - "![Ollama](https://img.shields.io/badge/ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)"
   - "![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)"
   - "![pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)"
@@ -163,6 +164,7 @@ badges:
   - "![LXC](https://img.shields.io/badge/LXC-009688?style=for-the-badge&logo=linuxcontainers&logoColor=white)"
   - "![libvirt](https://img.shields.io/badge/libvirt-FF6600?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=)"
   - "![QEMU](https://img.shields.io/badge/QEMU-FF5733?style=for-the-badge&logo=qemu&logoColor=white)"
+  - "![KVM](https://img.shields.io/badge/KVM-333333?style=for-the-badge&logoColor=white)"
   - "![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)"
   - "![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)"
   - "![Nomad](https://img.shields.io/badge/Nomad-00A3E0?style=for-the-badge&logo=nomad&logoColor=white)"
@@ -227,6 +229,8 @@ badges:
   - "![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)"
   - "![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)"
 
+  - "![HAProxy](https://img.shields.io/badge/HAProxy-1F3A8F?style=for-the-badge&logo=envoyproxy&logoColor=white)"
+  - "![Varnish](https://img.shields.io/badge/Varnish-4B9CD3?style=for-the-badge&logoColor=white)"
   - "![Squid](https://img.shields.io/badge/Squid-CE2027?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=)"
   - "![GlusterFS](https://img.shields.io/badge/GlusterFS-CE3226?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMyAxMyIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIj4KPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSJibGFjayIvPgo8cmVjdCB4PSI1IiB5PSIxIiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSIxIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI1IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI5IiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=)"
   # --- Cloud ---
@@ -239,6 +243,9 @@ badges:
   - "![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)"
   - "![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white)"
   - "![Scaleway](https://img.shields.io/badge/Scaleway-4F0599?style=for-the-badge&logo=scaleway&logoColor=white)"
+  - "![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logoColor=white)"
+  - "![Selectel](https://img.shields.io/badge/Selectel-0080FF?style=for-the-badge&logoColor=white)"
+  - "![IBM Cloud](https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logoColor=white)"
   - "![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=virtualbox&logoColor=white)"
   # --- VCS / CI ---
   - "![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)"
@@ -247,8 +254,9 @@ badges:
   - "![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)"
   - "![GitLab CI](https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)"
   # --- Editors / IDEs ---
-  - "![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)"
   - "![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)"
+  - "![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)"
+  - "![VSCodium](https://img.shields.io/badge/VSCodium-2F80ED?style=for-the-badge&logo=vscodium&logoColor=white)"
   - "![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=for-the-badge&logo=opencode&logoColor=white)"
   # --- Distributions ---
   - "![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)"
