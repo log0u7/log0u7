@@ -33,15 +33,14 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 6m 13d
+  uptime:         42y 8m 18d
   location:       France
   domain:         infra / security / machine-intelligence
-  week:           W27 2026
+  week:           W36 2026
 
-  activity:       ▆▆▅▅▅▄▄▅▅▅▆▆▇█▇███▇▇▆▅▄▄▃▄▃▄▃▄▅▄
+  activity:       ▄▅▅▅▄▅▅▄▃▂▁▁▁▁▁▁▁▁▁▁▂▃▃▃▄▄▃▂▃▂▁▁
 
-  Beware of bugs in the above code; I have only proved it correct, not tried
-  it. -- Donald Knuth
+  The kernel is always right. -- Linus Torvalds (implied)
 ```
 
 ## ORIGIN
