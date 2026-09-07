@@ -33,14 +33,15 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 8m 18d
+  uptime:         42y 8m 20d
   location:       France
   domain:         infra / security / machine-intelligence
-  week:           W36 2026
+  week:           W37 2026
 
-  activity:       ▄▅▅▅▄▅▅▄▃▂▁▁▁▁▁▁▁▁▁▁▂▃▃▃▄▄▃▂▃▂▁▁
+  activity:       ▆▅▄▃▂▃▃▄▅▆▆▆▆▇▇▆▆▇██▇▆▇▆▇██▇████
 
-  The kernel is always right. -- Linus Torvalds (implied)
+  If debugging is the process of removing bugs, then programming must be the
+  process of putting them in. -- Dijkstra
 ```
 
 ## ORIGIN
