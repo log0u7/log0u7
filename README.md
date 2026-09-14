@@ -33,15 +33,15 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 8m 20d
+  uptime:         42y 8m 27d
   location:       France
   domain:         infra / security / machine-intelligence
-  week:           W37 2026
+  week:           W38 2026
 
-  activity:       ▆▅▄▃▂▃▃▄▅▆▆▆▆▇▇▆▆▇██▇▆▇▆▇██▇████
+  activity:       ▄▄▄▅▅▅▆▅▅▆▆▅▆▅▄▃▂▂▃▃▂▃▂▂▃▂▁▁▂▁▁▁
 
-  If debugging is the process of removing bugs, then programming must be the
-  process of putting them in. -- Dijkstra
+  A language that doesn't affect the way you think about programming is not
+  worth knowing. -- Alan Perlis
 ```
 
 ## ORIGIN
