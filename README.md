@@ -33,15 +33,15 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 8m 27d
+  uptime:         42y 9m 4d
   location:       France
   domain:         infra / security / machine-intelligence
-  week:           W38 2026
+  week:           W39 2026
 
-  activity:       ▄▄▄▅▅▅▆▅▅▆▆▅▆▅▄▃▂▂▃▃▂▃▂▂▃▂▁▁▂▁▁▁
+  activity:       ▄▃▃▃▃▂▃▃▃▄▅▄▃▂▃▂▁▁▁▁▁▁▁▂▂▃▂▂▃▂▃▄
 
-  A language that doesn't affect the way you think about programming is not
-  worth knowing. -- Alan Perlis
+  The function of good software is to make the complex appear to be simple.
+  -- Grady Booch
 ```
 
 ## ORIGIN
