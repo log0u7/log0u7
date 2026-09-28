@@ -33,15 +33,15 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 9m 4d
+  uptime:         42y 9m 11d
   location:       France
   domain:         infra / security / machine-intelligence
-  week:           W39 2026
+  week:           W40 2026
 
-  activity:       ▄▃▃▃▃▂▃▃▃▄▅▄▃▂▃▂▁▁▁▁▁▁▁▂▂▃▂▂▃▂▃▄
+  activity:       ▃▂▃▄▅▆▇▇▇▇▆▅▄▃▂▁▂▁▂▂▃▃▄▅▄▄▃▂▃▂▃▃
 
-  The function of good software is to make the complex appear to be simple.
-  -- Grady Booch
+  It is easier to write an incorrect program than to understand a correct
+  one. -- Alan Perlis
 ```
 
 ## ORIGIN
