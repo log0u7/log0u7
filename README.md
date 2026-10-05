@@ -33,15 +33,14 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 9m 11d
+  uptime:         42y 9m 18d
   location:       France
   domain:         infra / security / machine-intelligence
-  week:           W40 2026
+  week:           W41 2026
 
-  activity:       ▃▂▃▄▅▆▇▇▇▇▆▅▄▃▂▁▂▁▂▂▃▃▄▅▄▄▃▂▃▂▃▃
+  activity:       ▂▂▃▂▂▃▃▄▅▆▆▇█▇▇▇▇▇▆▇███▇▇▇▇█▇▆▇█
 
-  It is easier to write an incorrect program than to understand a correct
-  one. -- Alan Perlis
+  Simplicity is prerequisite for reliability. -- Dijkstra
 ```
 
 ## ORIGIN
