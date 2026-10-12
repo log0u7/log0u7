@@ -33,14 +33,16 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 9m 18d
+  uptime:         42y 9m 25d
   location:       France
   domain:         infra / security / machine-intelligence
-  week:           W41 2026
+  week:           W42 2026
 
-  activity:       ▂▂▃▂▂▃▃▄▅▆▆▇█▇▇▇▇▇▆▇███▇▇▇▇█▇▆▇█
+  activity:       ▅▆▅▆▆▆▆▆▅▅▄▄▅▆▅▆▆▆▅▄▅▄▅▆▆▇▇▆▅▅▆▅
 
-  Simplicity is prerequisite for reliability. -- Dijkstra
+  I have always wished for my computer to be as easy to use as my telephone;
+  my wish has come true because I can no longer figure out my telephone. --
+  Bjarne Stroustrup
 ```
 
 ## ORIGIN
