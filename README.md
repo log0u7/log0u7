@@ -33,16 +33,15 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 9m 25d
+  uptime:         42y 10m 2d
   location:       France
   domain:         infra / security / machine-intelligence
-  week:           W42 2026
+  week:           W43 2026
 
-  activity:       ▅▆▅▆▆▆▆▆▅▅▄▄▅▆▅▆▆▆▅▄▅▄▅▆▆▇▇▆▅▅▆▅
+  activity:       ▆▅▆▆▇▆▆▅▄▃▂▃▄▃▄▅▆▆▅▄▄▅▆▆▆▅▄▃▃▄▄▅
 
-  I have always wished for my computer to be as easy to use as my telephone;
-  my wish has come true because I can no longer figure out my telephone. --
-  Bjarne Stroustrup
+  C makes it easy to shoot yourself in the foot; C++ makes it harder, but
+  when you do it blows your whole leg off. -- Bjarne Stroustrup
 ```
 
 ## ORIGIN
