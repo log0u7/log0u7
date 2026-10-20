@@ -272,43 +272,78 @@ badges:
   - "![POSIX](https://img.shields.io/badge/POSIX-333333?style=for-the-badge&logo=linux&logoColor=white)"
 
 projects:
-  - key: "consensus"
+  - group: "AI / Agents"
     name: "consensus"
-    desc: "Production-grade multi-agent LLM orchestration (coder panel, consensus lead), RAG (pgvector/sqlite-vec), secure Docker sandbox, quota management, Textual TUI, 6k+ lines of async Python"
+    desc: "Multi-agent LLM orchestration with a coder panel and consensus lead, RAG over pgvector or sqlite-vec, a secure Docker sandbox and quota management."
     url: "https://github.com/log0u7/consensus"
-    tags: ["AI/ML", "Python", "FastAPI", "Docker", "RAG", "Textual"]
-    status: "active"
-    lines: 3883
-    tests: 21
-  - key: "myflec"
+    language: "Python"
+    tech: ["FastAPI", "Pydantic", "Textual", "httpx", "pgvector", "sqlite-vec", "PostgreSQL", "Docker"]
+  - group: "AI / Agents"
+    name: "brainforge"
+    desc: "Multi-teacher LLM distillation into verified training datasets, then local QLoRA or full fine-tuning with GGUF and Ollama export."
+    url: "https://github.com/log0u7/brainforge"
+    language: "Python"
+    tech: ["Pydantic", "Typer", "PyTorch", "Transformers", "PEFT", "TRL", "Unsloth", "Ollama"]
+  - group: "AI / Agents"
+    name: "vteuthis"
+    desc: "Autonomous LangGraph agents that must fund their own OpenRouter inference or stop, backed by Temporal workflows, Stripe revenue and an append-only ledger."
+    url: "https://github.com/log0u7/vteuthis"
+    language: "Python"
+    tech: ["LangGraph", "Temporal", "PostgreSQL", "OpenRouter", "Stripe", "Docker"]
+  - group: "AI / Agents"
+    name: "llmp2p"
+    desc: "Peer-to-peer distribution of Hugging Face model artifacts over BitTorrent swarms, with Hub fallback, SHA-256 verification and Ollama import."
+    url: "https://github.com/log0u7/llmp2p"
+    language: "Go"
+    tech: ["Cobra", "anacrolix/torrent", "BEP44 DHT", "ed25519", "Hugging Face Hub", "Ollama"]
+  - group: "Security"
+    name: "augure"
+    desc: "Auditable exploitation decision layer that proposes, verifies and explains technique selection from Datalog facts, without executing anything."
+    url: "https://github.com/log0u7/augure"
+    language: "Ruby"
+    tech: ["Metasm", "Datalog", "MCP", "Z3", "Bitwuzla", "CVC5"]
+  - group: "Security"
+    name: "lictor"
+    desc: "Authorized-ops orchestrator for augure with handoff by default, consent-gated execution and a full JSONL audit trail."
+    url: "https://github.com/log0u7/lictor"
+    language: "Ruby, C"
+    tech: ["nmap", "MCP", "fuzzing", "JSONL"]
+  - group: "DevX"
     name: "myflec"
-    desc: "Modular shell framework (Bash + Mise + Fnox + Starship), SSH identity model (gitdir + host alias), shellcheck/bash -n validation, multi-forge CI"
+    desc: "Modular Bash environment framework with an SSH identity model, shellcheck validation and multi-forge CI."
     url: "https://github.com/log0u7/myflec"
-    tags: ["DevX", "Bash", "Mise", "Fnox", "Shell", "Starship"]
-    status: "active"
-    lines: 16000
-  - key: "vim-plugin-manager"
+    language: "Bash"
+    tech: ["Mise", "Fnox", "Starship", "fzf", "zoxide", "atuin", "direnv", "ShellCheck"]
+  - group: "DevX"
     name: "vim-plugin-manager"
-    desc: "Vim plugin manager (Git submodules + native packages), async jobs with concurrency queue, 20 Vader tests, multi-distro CI (Alma/Debian/Ubuntu/Arch/Gentoo)"
+    desc: "Lightweight Vim plugin manager built on Git submodules and Vim 8 native packages, with async jobs, a concurrency queue and Vader tests."
     url: "https://github.com/log0u7/vim-plugin-manager"
-    tags: ["VimScript", "DevTools", "Async", "Testing", "Git"]
-    status: "active"
-    lines: 2507
-    tests: 20
-  - key: "calvin"
-    name: "calvin"
-    desc: "Docker Swarm IaC platform, 11 stacks (Traefik, Foreman PXE, PowerDNS/DHCP, VictoriaMetrics/Logs, Grafana, ARA), 4 TLS modes, MACVLAN, 25k-line Makefile, GitLab CI"
-    url: "https://github.com/log0u7/calvin"
-    tags: ["IaC", "Docker Swarm", "Bare-metal", "Observability", "Foreman", "Traefik"]
-    status: "active"
-    lines: 50000
-  - key: "fluolight"
+    language: "VimScript"
+    tech: ["Git submodules", "Vim packages", "async jobs", "Vader", "CI"]
+  - group: "OpenCode Plugins"
+    name: "opencode-memory"
+    desc: "OpenCode plugin that gives sessions a persistent SQLite FTS5 memory."
+    url: "https://github.com/log0u7/opencode-memory"
+    language: "TypeScript"
+    tech: ["OpenCode plugin API", "SQLite FTS5"]
+  - group: "OpenCode Plugins"
+    name: "opencode-watt"
+    desc: "OpenCode plugin exposing hardware power and cost telemetry for local inference."
+    url: "https://github.com/log0u7/opencode-watt"
+    language: "TypeScript"
+    tech: ["OpenCode plugin API", "nvidia-smi", "rocm-smi", "RAPL", "Prometheus", "VictoriaMetrics"]
+  - group: "OpenCode Plugins"
+    name: "opencode-mesh"
+    desc: "OpenCode plugin that shares sessions across peers on the LAN or a Tailscale pool."
+    url: "https://github.com/log0u7/opencode-mesh"
+    language: "TypeScript"
+    tech: ["OpenCode plugin API", "mDNS", "Tailscale"]
+  - group: "Embedded"
     name: "fluolight"
-    desc: "Embedded NeoPixel controller (Arduino/C++), Ethernet DHCP, proxy, watchdog, modular 5-file architecture, 920 lines"
+    desc: "Arduino-based smart lighting controller for networked status indicators, with DHCP, proxy, I2C EEPROM config and a watchdog."
     url: "https://github.com/log0u7/fluolight"
-    tags: ["Embedded", "C++", "Arduino", "NeoPixel", "Ethernet"]
-    status: "active"
-    lines: 920
+    language: "C++ (Arduino)"
+    tech: ["Adafruit NeoPixel", "Ethernet", "I2C EEPROM", "watchdog"]
 
 fortunes:
   - "The best way to predict the future is to implement it. -- Alan Kay"
@@ -376,7 +411,7 @@ manpage:
     - STATUS
     - ORIGIN
     - STACK
-    - EXAMPLES
+    - PROJECTS
     - SEE ALSO
     - BUGS
   ascii_banner: true

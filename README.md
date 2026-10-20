@@ -33,7 +33,7 @@ PHP, C/C++, Java, R, Prolog, VimScript).
 
 ```text
   handle:         log0u7
-  uptime:         42y 10m 2d
+  uptime:         42y 10m 3d
   location:       France
   domain:         infra / security / machine-intelligence
   week:           W43 2026
@@ -213,57 +213,67 @@ figure it out, build it, run it.
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![AlmaLinux](https://img.shields.io/badge/AlmaLinux-10B981?style=for-the-badge&logo=almalinux&logoColor=white) ![Alpine Linux](https://img.shields.io/badge/Alpine_Linux-%230D597F.svg?style=for-the-badge&logo=alpinelinux&logoColor=white) ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white) ![Gentoo](https://img.shields.io/badge/Gentoo-5A3D8F?style=for-the-badge&logo=gentoo&logoColor=white) ![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white) ![OpenBSD](https://img.shields.io/badge/OpenBSD-F2CA30?style=for-the-badge&logo=openbsd&logoColor=black) ![POSIX](https://img.shields.io/badge/POSIX-333333?style=for-the-badge&logo=linux&logoColor=white)
 
 
-## EXAMPLES
+## PROJECTS
 
-### 🟢 consensus
+### AI / Agents
 
-Production-grade multi-agent LLM orchestration (coder panel, consensus lead),
-RAG (pgvector/sqlite-vec), secure Docker sandbox, quota management, Textual
-TUI, 6k+ lines of async Python
+- **[consensus](https://github.com/log0u7/consensus)** - Multi-agent LLM
+  orchestration with a coder panel and consensus lead, RAG over pgvector or
+  sqlite-vec, a secure Docker sandbox and quota management.
+  **Language:** Python · **Tech:** FastAPI, Pydantic, Textual, httpx, pgvector, sqlite-vec, PostgreSQL, Docker
+- **[brainforge](https://github.com/log0u7/brainforge)** - Multi-teacher LLM
+  distillation into verified training datasets, then local QLoRA or full
+  fine-tuning with GGUF and Ollama export.
+  **Language:** Python · **Tech:** Pydantic, Typer, PyTorch, Transformers, PEFT, TRL, Unsloth, Ollama
+- **[vteuthis](https://github.com/log0u7/vteuthis)** - Autonomous LangGraph
+  agents that must fund their own OpenRouter inference or stop, backed by
+  Temporal workflows, Stripe revenue and an append-only ledger.
+  **Language:** Python · **Tech:** LangGraph, Temporal, PostgreSQL, OpenRouter, Stripe, Docker
+- **[llmp2p](https://github.com/log0u7/llmp2p)** - Peer-to-peer distribution
+  of Hugging Face model artifacts over BitTorrent swarms, with Hub fallback,
+  SHA-256 verification and Ollama import.
+  **Language:** Go · **Tech:** Cobra, anacrolix/torrent, BEP44 DHT, ed25519, Hugging Face Hub, Ollama
 
-**Tags:** `AI/ML`, `Python`, `FastAPI`, `Docker`, `RAG`, `Textual`  
-**Lines:** ~3,883  
-**Tests:** 21  
-**Repo:** [https://github.com/log0u7/consensus](https://github.com/log0u7/consensus)
+### Security
 
-### 🟢 myflec
+- **[augure](https://github.com/log0u7/augure)** - Auditable exploitation
+  decision layer that proposes, verifies and explains technique selection from
+  Datalog facts, without executing anything.
+  **Language:** Ruby · **Tech:** Metasm, Datalog, MCP, Z3, Bitwuzla, CVC5
+- **[lictor](https://github.com/log0u7/lictor)** - Authorized-ops orchestrator
+  for augure with handoff by default, consent-gated execution and a full JSONL
+  audit trail.
+  **Language:** Ruby, C · **Tech:** nmap, MCP, fuzzing, JSONL
 
-Modular shell framework (Bash + Mise + Fnox + Starship), SSH identity model
-(gitdir + host alias), shellcheck/bash -n validation, multi-forge CI
+### DevX
 
-**Tags:** `DevX`, `Bash`, `Mise`, `Fnox`, `Shell`, `Starship`  
-**Lines:** ~16,000  
-**Repo:** [https://github.com/log0u7/myflec](https://github.com/log0u7/myflec)
+- **[myflec](https://github.com/log0u7/myflec)** - Modular Bash environment
+  framework with an SSH identity model, shellcheck validation and multi-forge
+  CI.
+  **Language:** Bash · **Tech:** Mise, Fnox, Starship, fzf, zoxide, atuin, direnv, ShellCheck
+- **[vim-plugin-manager](https://github.com/log0u7/vim-plugin-manager)** - Lightweight
+  Vim plugin manager built on Git submodules and Vim 8 native packages, with
+  async jobs, a concurrency queue and Vader tests.
+  **Language:** VimScript · **Tech:** Git submodules, Vim packages, async jobs, Vader, CI
 
-### 🟢 vim-plugin-manager
+### OpenCode Plugins
 
-Vim plugin manager (Git submodules + native packages), async jobs with
-concurrency queue, 20 Vader tests, multi-distro CI
-(Alma/Debian/Ubuntu/Arch/Gentoo)
+- **[opencode-memory](https://github.com/log0u7/opencode-memory)** - OpenCode
+  plugin that gives sessions a persistent SQLite FTS5 memory.
+  **Language:** TypeScript · **Tech:** OpenCode plugin API, SQLite FTS5
+- **[opencode-watt](https://github.com/log0u7/opencode-watt)** - OpenCode
+  plugin exposing hardware power and cost telemetry for local inference.
+  **Language:** TypeScript · **Tech:** OpenCode plugin API, nvidia-smi, rocm-smi, RAPL, Prometheus, VictoriaMetrics
+- **[opencode-mesh](https://github.com/log0u7/opencode-mesh)** - OpenCode
+  plugin that shares sessions across peers on the LAN or a Tailscale pool.
+  **Language:** TypeScript · **Tech:** OpenCode plugin API, mDNS, Tailscale
 
-**Tags:** `VimScript`, `DevTools`, `Async`, `Testing`, `Git`  
-**Lines:** ~2,507  
-**Tests:** 20  
-**Repo:** [https://github.com/log0u7/vim-plugin-manager](https://github.com/log0u7/vim-plugin-manager)
+### Embedded
 
-### 🟢 calvin
-
-Docker Swarm IaC platform, 11 stacks (Traefik, Foreman PXE, PowerDNS/DHCP,
-VictoriaMetrics/Logs, Grafana, ARA), 4 TLS modes, MACVLAN, 25k-line Makefile,
-GitLab CI
-
-**Tags:** `IaC`, `Docker Swarm`, `Bare-metal`, `Observability`, `Foreman`, `Traefik`  
-**Lines:** ~50,000  
-**Repo:** [https://github.com/log0u7/calvin](https://github.com/log0u7/calvin)
-
-### 🟢 fluolight
-
-Embedded NeoPixel controller (Arduino/C++), Ethernet DHCP, proxy, watchdog,
-modular 5-file architecture, 920 lines
-
-**Tags:** `Embedded`, `C++`, `Arduino`, `NeoPixel`, `Ethernet`  
-**Lines:** ~920  
-**Repo:** [https://github.com/log0u7/fluolight](https://github.com/log0u7/fluolight)
+- **[fluolight](https://github.com/log0u7/fluolight)** - Arduino-based smart
+  lighting controller for networked status indicators, with DHCP, proxy, I2C
+  EEPROM config and a watchdog.
+  **Language:** C++ (Arduino) · **Tech:** Adafruit NeoPixel, Ethernet, I2C EEPROM, watchdog
 
 ## SEE ALSO
 

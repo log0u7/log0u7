@@ -99,10 +99,6 @@ def wrap(text: str, indent: str = "") -> str:
     )
 
 
-def tag(text: str) -> str:
-    return f"`{text}`"
-
-
 def parse_badges_flat(badges: list) -> dict:
     result = {}
     for entry in badges:
@@ -217,6 +213,34 @@ def load_profile() -> dict:
     return yaml.safe_load(raw)
 
 
+def render_projects(projects: list) -> str:
+    groups = {}
+    for proj in projects:
+        groups.setdefault(proj["group"], []).append(proj)
+
+    lines = []
+    for group, items in groups.items():
+        lines.append(f"### {group}")
+        lines.append("")
+        for proj in items:
+            lead = f'- **[{proj["name"]}]({proj["url"]})** - '
+            lines.append(
+                textwrap.fill(
+                    proj["desc"],
+                    width=WIDTH,
+                    initial_indent=lead,
+                    subsequent_indent="  ",
+                    break_long_words=False,
+                    break_on_hyphens=False,
+                )
+            )
+            tech = ", ".join(proj["tech"])
+            lines.append(f'  **Language:** {proj["language"]} · **Tech:** {tech}')
+        lines.append("")
+
+    return "\n".join(lines).rstrip("\n")
+
+
 def render(p: dict) -> str:
     parts = []
     id_ = p["identity"]
@@ -294,22 +318,11 @@ def render(p: dict) -> str:
             parts.append(groups)
         parts.append("")
 
-    # --- EXAMPLES (projects) ---
-    parts.append("## EXAMPLES")
+    # --- PROJECTS (grouped showcase) ---
+    parts.append("## PROJECTS")
     parts.append("")
-
-    for proj in p.get("projects", []):
-        emoji = "\U0001f7e2" if proj["status"] == "active" else "\U0001f534"
-        parts.append(f"### {emoji} {proj['name']}")
-        parts.append("")
-        parts.append(wrap(proj["desc"]))
-        parts.append("")
-        parts.append(f'**Tags:** {", ".join(tag(t) for t in proj["tags"])}  ')
-        parts.append(f'**Lines:** ~{proj["lines"]:,}  ')
-        if proj.get("tests"):
-            parts.append(f'**Tests:** {proj["tests"]}  ')
-        parts.append(f'**Repo:** [{proj["url"]}]({proj["url"]})')
-        parts.append("")
+    parts.append(render_projects(p.get("projects", [])))
+    parts.append("")
 
     # --- SEE ALSO ---
     parts.append("## SEE ALSO")
