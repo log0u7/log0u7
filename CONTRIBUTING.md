@@ -18,7 +18,8 @@ with no generator and no CI step.
 
 - English content.
 - No em dash. Use `:`, `,`, parentheses or a plain hyphen.
-- One project entry: linked name, one-line outcome, then four badges.
+- One project entry: linked name, one-line outcome, then four badges (five
+  when a platform badge is required).
 - Badges use shields.io `flat-square`: language first, then three key technologies.
 - Use a known Simple Icons slug when available. Otherwise use a label-only badge
   with a neutral dark color.

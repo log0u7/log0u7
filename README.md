@@ -66,15 +66,15 @@ I build infrastructure, security and machine-intelligence systems, from bare met
 
 **[opencode-memory](https://github.com/log0u7/opencode-memory)** - Persistent SQLite memory for OpenCode sessions.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=flat-square&logoColor=white) ![FTS5](https://img.shields.io/badge/FTS5-333333?style=flat-square&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=flat-square&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![FTS5](https://img.shields.io/badge/FTS5-333333?style=flat-square&logoColor=white)
 
 **[opencode-watt](https://github.com/log0u7/opencode-watt)** - Power and cost telemetry for local model inference.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![AMD](https://img.shields.io/badge/AMD-ED1C24?style=flat-square&logo=amd&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=flat-square&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![AMD](https://img.shields.io/badge/AMD-ED1C24?style=flat-square&logo=amd&logoColor=white)
 
 **[opencode-mesh](https://github.com/log0u7/opencode-mesh)** - Shares OpenCode sessions across LAN and Tailscale peers.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![mDNS](https://img.shields.io/badge/mDNS-333333?style=flat-square&logoColor=white) ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white) ![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=flat-square&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=flat-square&logoColor=white) ![mDNS](https://img.shields.io/badge/mDNS-333333?style=flat-square&logoColor=white) ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
 
 ### Embedded
 
