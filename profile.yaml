@@ -320,6 +320,12 @@ projects:
     url: "https://github.com/log0u7/vim-plugin-manager"
     language: "VimScript"
     tech: ["Git submodules", "Vim packages", "async jobs", "Vader", "CI"]
+  - group: "DevX"
+    name: "myvim"
+    desc: "Personal Vim IDE assembled from Git submodules and Vim native packages, orchestrated by vim-plugin-manager and validated by tests."
+    url: "https://github.com/log0u7/myvim"
+    language: "VimScript"
+    tech: ["Vim packages", "Git submodules", "vim-plugin-manager", "Makefile"]
   - group: "OpenCode Plugins"
     name: "opencode-memory"
     desc: "OpenCode plugin that gives sessions a persistent SQLite FTS5 memory."

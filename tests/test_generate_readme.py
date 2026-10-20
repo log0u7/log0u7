@@ -25,8 +25,8 @@ class ProjectsTest(unittest.TestCase):
         cls.projects = profile["projects"]
         cls.readme = generate_readme.render(profile)
 
-    def test_profile_has_twelve_projects(self):
-        self.assertEqual(12, len(self.projects))
+    def test_profile_has_thirteen_projects(self):
+        self.assertEqual(13, len(self.projects))
 
     def test_projects_section_is_grouped(self):
         self.assertIn("## PROJECTS", self.readme)
@@ -35,8 +35,8 @@ class ProjectsTest(unittest.TestCase):
             self.assertIn(f"### {group}", self.readme)
 
     def test_each_project_has_language_and_tech(self):
-        self.assertEqual(12, self.readme.count("**Language:**"))
-        self.assertEqual(12, self.readme.count("**Tech:**"))
+        self.assertEqual(13, self.readme.count("**Language:**"))
+        self.assertEqual(13, self.readme.count("**Tech:**"))
         for project in self.projects:
             self.assertIn(f'**[{project["name"]}]({project["url"]})**', self.readme)
             self.assertIn(f'**Language:** {project["language"]}', self.readme)

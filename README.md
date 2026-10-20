@@ -255,6 +255,10 @@ figure it out, build it, run it.
   Vim plugin manager built on Git submodules and Vim 8 native packages, with
   async jobs, a concurrency queue and Vader tests.
   **Language:** VimScript · **Tech:** Git submodules, Vim packages, async jobs, Vader, CI
+- **[myvim](https://github.com/log0u7/myvim)** - Personal Vim IDE assembled
+  from Git submodules and Vim native packages, orchestrated by
+  vim-plugin-manager and validated by tests.
+  **Language:** VimScript · **Tech:** Vim packages, Git submodules, vim-plugin-manager, Makefile
 
 ### OpenCode Plugins
 
