@@ -80,7 +80,7 @@ I build infrastructure, security and machine-intelligence systems, from bare met
 
 **[fluolight](https://github.com/log0u7/fluolight)** - Networked status lighting for desks and labs.
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) ![Ethernet](https://img.shields.io/badge/Ethernet-333333?style=flat-square&logoColor=white) ![NeoPixel](https://img.shields.io/badge/NeoPixel-333333?style=flat-square&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) ![Ethernet](https://img.shields.io/badge/Ethernet-333333?style=flat-square&logoColor=white) ![NeoPixel](https://img.shields.io/badge/NeoPixel-333333?style=flat-square&logoColor=white)
 
 ## Contact
 
