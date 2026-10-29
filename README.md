@@ -18,11 +18,11 @@ I build infrastructure, security and machine-intelligence systems, from bare met
 
 **[brainforge](https://github.com/log0u7/brainforge)** - Distills multiple teachers into verified datasets, then fine-tunes and exports local models.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 
 **[consensus](https://github.com/log0u7/consensus)** - Multi-agent LLM orchestration with RAG, sandboxed execution and quota control.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 **[llmp2p](https://github.com/log0u7/llmp2p)** - Distributes Hugging Face models peer-to-peer over BitTorrent, verified end to end.
 
@@ -30,13 +30,13 @@ I build infrastructure, security and machine-intelligence systems, from bare met
 
 **[vteuthis](https://github.com/log0u7/vteuthis)** - Autonomous agents on a hard budget: they fund their own inference or stop.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white) ![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logoColor=white) ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white) ![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logoColor=white) ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 ### Security
 
 **[augure](https://github.com/log0u7/augure)** - Audits and explains exploitation decisions from Datalog facts, without executing them.
 
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white) ![Metasm](https://img.shields.io/badge/Metasm-333333?style=flat-square&logoColor=white) ![Z3](https://img.shields.io/badge/Z3-333333?style=flat-square&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-333333?style=flat-square&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white) ![Metasm](https://img.shields.io/badge/Metasm-333333?style=flat-square&logoColor=white) ![Z3](https://img.shields.io/badge/Z3-333333?style=flat-square&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-333333?style=flat-square&logoColor=white) ![Datalog](https://img.shields.io/badge/Datalog-333333?style=flat-square&logoColor=white)
 
 **[lictor](https://github.com/log0u7/lictor)** - Runs authorized security operations with consent gates and a full audit trail.
 
@@ -46,7 +46,7 @@ I build infrastructure, security and machine-intelligence systems, from bare met
 
 **[myflec](https://github.com/log0u7/myflec)** - A modular shell environment with reproducible identities across machines.
 
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Mise](https://img.shields.io/badge/Mise-6B46C1?style=flat-square&logoColor=white) ![Starship](https://img.shields.io/badge/Starship-DD0B78?style=flat-square&logo=starship&logoColor=white) ![ShellCheck](https://img.shields.io/badge/ShellCheck-333333?style=flat-square&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Mise](https://img.shields.io/badge/Mise-6B46C1?style=flat-square&logoColor=white) ![Starship](https://img.shields.io/badge/Starship-DD0B78?style=flat-square&logo=starship&logoColor=white) ![ShellCheck](https://img.shields.io/badge/ShellCheck-333333?style=flat-square&logoColor=white) ![Direnv](https://img.shields.io/badge/Direnv-333333?style=flat-square&logo=direnv&logoColor=white) ![fnox](https://img.shields.io/badge/fnox-333333?style=flat-square&logoColor=white)
 
 **[myvim](https://github.com/log0u7/myvim)** - A personal Vim IDE, versioned and reproducible.
 
@@ -74,4 +74,4 @@ I build infrastructure, security and machine-intelligence systems, from bare met
 
 **[opencode-watt](https://github.com/log0u7/opencode-watt)** - Power and cost telemetry for local model inference.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=flat-square&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![AMD](https://img.shields.io/badge/AMD-ED1C24?style=flat-square&logo=amd&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=flat-square&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![AMD](https://img.shields.io/badge/AMD-ED1C24?style=flat-square&logo=amd&logoColor=white) ![Intel](https://img.shields.io/badge/Intel-0071C5?style=flat-square&logo=intel&logoColor=white)
